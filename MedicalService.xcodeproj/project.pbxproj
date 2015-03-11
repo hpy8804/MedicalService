@@ -1,0 +1,2069 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1F76FA17C3295E00478CDB /* FamousHospitalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0888817C30CEE00EC5CBD /* FamousHospitalCell.m */; };
+		0F1F76FB17C3295E00478CDB /* FamousHospital.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0887A17C2FA0700EC5CBD /* FamousHospital.m */; };
+		0F1F76FC17C3297A00478CDB /* deptTimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 189AB54417C2FB2600EFF4E3 /* deptTimeModel.m */; };
+		0F1F76FD17C3297A00478CDB /* deptTimeScheduleService.m in Sources */ = {isa = PBXBuildFile; fileRef = 189AB54017C2FB0D00EFF4E3 /* deptTimeScheduleService.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0FC0209117C75447009A656C /* PersonalServiceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0208F17C75447009A656C /* PersonalServiceVC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0FC0209217C75447009A656C /* PersonalServiceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FC0209017C75447009A656C /* PersonalServiceVC.xib */; };
+		0FC0887D17C2FA0700EC5CBD /* FamousHospital.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FC0887B17C2FA0700EC5CBD /* FamousHospital.xib */; };
+		0FC0888B17C30CEE00EC5CBD /* FamousHospitalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FC0888917C30CEE00EC5CBD /* FamousHospitalCell.xib */; };
+		0FD1CF6A17C34E73008A1BF2 /* 0.html in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF5817C34E73008A1BF2 /* 0.html */; };
+		0FD1CF6B17C34E73008A1BF2 /* 1.html in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF5917C34E73008A1BF2 /* 1.html */; };
+		0FD1CF6C17C34E73008A1BF2 /* 2.html in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF5A17C34E73008A1BF2 /* 2.html */; };
+		0FD1CF6D17C34E73008A1BF2 /* 3.html in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF5B17C34E73008A1BF2 /* 3.html */; };
+		0FD1CF6E17C34E73008A1BF2 /* 4.html in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF5C17C34E73008A1BF2 /* 4.html */; };
+		0FD1CF6F17C34E73008A1BF2 /* 5.html in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF5D17C34E73008A1BF2 /* 5.html */; };
+		0FD1CF7017C34E73008A1BF2 /* braincenter.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF5E17C34E73008A1BF2 /* braincenter.htm */; };
+		0FD1CF7117C34E73008A1BF2 /* cardiology.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF5F17C34E73008A1BF2 /* cardiology.htm */; };
+		0FD1CF7217C34E73008A1BF2 /* chestsurgical.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF6017C34E73008A1BF2 /* chestsurgical.htm */; };
+		0FD1CF7317C34E73008A1BF2 /* childprotection.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF6117C34E73008A1BF2 /* childprotection.htm */; };
+		0FD1CF7417C34E73008A1BF2 /* criticalcaremedicine.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF6217C34E73008A1BF2 /* criticalcaremedicine.htm */; };
+		0FD1CF7617C34E73008A1BF2 /* dermatology.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF6417C34E73008A1BF2 /* dermatology.htm */; };
+		0FD1CF7717C34E73008A1BF2 /* liverdiseasebranch.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF6517C34E73008A1BF2 /* liverdiseasebranch.htm */; };
+		0FD1CF7817C34E73008A1BF2 /* obstetrics.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF6617C34E73008A1BF2 /* obstetrics.htm */; };
+		0FD1CF7917C34E73008A1BF2 /* obstetricsandgynecology.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF6717C34E73008A1BF2 /* obstetricsandgynecology.htm */; };
+		0FD1CF7A17C34E73008A1BF2 /* ophthalmology.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF6817C34E73008A1BF2 /* ophthalmology.htm */; };
+		0FD1CF7B17C34E73008A1BF2 /* orthopedics.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF6917C34E73008A1BF2 /* orthopedics.htm */; };
+		0FD1CF8017C35122008A1BF2 /* HospitalWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD1CF7E17C35122008A1BF2 /* HospitalWebView.m */; };
+		0FD1CF8117C35122008A1BF2 /* HospitalWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF7F17C35122008A1BF2 /* HospitalWebView.xib */; };
+		0FD1CF8317C365A8008A1BF2 /* traditionalchineseinternalmedicine.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0FD1CF8217C365A7008A1BF2 /* traditionalchineseinternalmedicine.htm */; };
+		1805073617B8643F00CF8C43 /* ConfirmAppointment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805073517B8643F00CF8C43 /* ConfirmAppointment.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1805073A17B86B8900CF8C43 /* confirmModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805073917B86B8900CF8C43 /* confirmModel.m */; };
+		180CA70317B376B70089BB1D /* MakeAppointmentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CA70117B376B70089BB1D /* MakeAppointmentVC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		180CA70417B376B70089BB1D /* MakeAppointmentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180CA70217B376B70089BB1D /* MakeAppointmentVC.xib */; };
+		180CA70817B378C90089BB1D /* Appoint_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 180CA70617B378C90089BB1D /* Appoint_background.png */; };
+		180CA70917B378C90089BB1D /* Appoint_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180CA70717B378C90089BB1D /* Appoint_background@2x.png */; };
+		180CA70C17B378FA0089BB1D /* radio_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 180CA70A17B378FA0089BB1D /* radio_pressed.png */; };
+		180CA70D17B378FA0089BB1D /* radio_unpressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 180CA70B17B378FA0089BB1D /* radio_unpressed.png */; };
+		180CA71217B37A6B0089BB1D /* comm_arrow_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 180CA71017B37A6B0089BB1D /* comm_arrow_press.png */; };
+		180CA71317B37A6B0089BB1D /* comm_other_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 180CA71117B37A6B0089BB1D /* comm_other_arrow.png */; };
+		180CA71517B37A7F0089BB1D /* group_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 180CA71417B37A7F0089BB1D /* group_bg.png */; };
+		180CA72717B391000089BB1D /* hospitalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CA72617B391000089BB1D /* hospitalModel.m */; };
+		1815EF5A18764AE200F2CA15 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1815EF5218764AE200F2CA15 /* MJRefresh.bundle */; };
+		1815EF5B18764AE200F2CA15 /* MJRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815EF5518764AE200F2CA15 /* MJRefreshBaseView.m */; };
+		1815EF5C18764AE200F2CA15 /* MJRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815EF5718764AE200F2CA15 /* MJRefreshFooterView.m */; };
+		1815EF5D18764AE200F2CA15 /* MJRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815EF5918764AE200F2CA15 /* MJRefreshHeaderView.m */; };
+		1817EB1417B4738800010843 /* hospital_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1817EB1317B4738700010843 /* hospital_bg.png */; };
+		1817EB1617B4780700010843 /* yuyueguahao.png in Resources */ = {isa = PBXBuildFile; fileRef = 1817EB1517B4780700010843 /* yuyueguahao.png */; };
+		1817EB1B17B47A3D00010843 /* hospitalAppointVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817EB1917B47A3D00010843 /* hospitalAppointVC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1817EB1C17B47A3D00010843 /* hospitalAppointVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1817EB1A17B47A3D00010843 /* hospitalAppointVC.xib */; };
+		1817EB1E17B4822200010843 /* settings_dropdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 1817EB1D17B4822100010843 /* settings_dropdown.png */; };
+		1817EB2017B4833800010843 /* field.png in Resources */ = {isa = PBXBuildFile; fileRef = 1817EB1F17B4833800010843 /* field.png */; };
+		1817EB2717B48FD300010843 /* getHospital.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817EB2617B48FD300010843 /* getHospital.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		181ABFF217D9AA4600BB1003 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ABFEF17D9AA4600BB1003 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		181ABFF317D9AA4600BB1003 /* AWVersionAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 181ABFF117D9AA4600BB1003 /* AWVersionAgent.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1850818A17C9DAC000E62724 /* appRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850818917C9DAC000E62724 /* appRecordModel.m */; };
+		1850818D17CAD1F200E62724 /* MakeAppointmentVC-iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1850818C17CAD1F200E62724 /* MakeAppointmentVC-iPhone5.xib */; };
+		1850818F17CAD53B00E62724 /* hospitalAppointVC-iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1850818E17CAD53B00E62724 /* hospitalAppointVC-iPhone5.xib */; };
+		1850819117CAD73200E62724 /* scheduleResultVC-iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1850819017CAD73200E62724 /* scheduleResultVC-iPhone5.xib */; };
+		1850819317CAE18600E62724 /* FamousHospital-iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1850819217CAE18600E62724 /* FamousHospital-iPhone5.xib */; };
+		1850819517CAE25800E62724 /* HospitalWebView-iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1850819417CAE25800E62724 /* HospitalWebView-iPhone5.xib */; };
+		1850819717CAED0E00E62724 /* PersonalServiceVC-iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1850819617CAED0E00E62724 /* PersonalServiceVC-iPhone5.xib */; };
+		1850819B17CAFF3D00E62724 /* AppointRecord-iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1850819A17CAFF3D00E62724 /* AppointRecord-iPhone5.xib */; };
+		1850819F17CB000900E62724 /* KangFuAppointRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850819D17CB000900E62724 /* KangFuAppointRecord.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		185081A017CB000900E62724 /* KangFuAppointRecord.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1850819E17CB000900E62724 /* KangFuAppointRecord.xib */; };
+		185081A217CB47B800E62724 /* KangFuAppointRecord-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185081A117CB47B800E62724 /* KangFuAppointRecord-iPhone.xib */; };
+		185081A617CB513300E62724 /* cancelAppointment.m in Sources */ = {isa = PBXBuildFile; fileRef = 185081A517CB513300E62724 /* cancelAppointment.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1855ED2117C5B34700F10856 /* regPatientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1855ED2017C5B34700F10856 /* regPatientInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1855ED2417C6101500F10856 /* expertScheduleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1855ED2317C6101500F10856 /* expertScheduleInfo.m */; };
+		1855ED2817C612CA00F10856 /* expertResourceScheduleDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 1855ED2717C612CA00F10856 /* expertResourceScheduleDetail.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1855ED2B17C6491800F10856 /* expertInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1855ED2A17C6491800F10856 /* expertInfoModel.m */; };
+		1855ED2E17C7001B00F10856 /* expertScheduleDetalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1855ED2D17C7001B00F10856 /* expertScheduleDetalModel.m */; };
+		1855ED3317C85CD000F10856 /* getPatientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1855ED3217C85CD000F10856 /* getPatientInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1855ED3617C8660F00F10856 /* patientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1855ED3517C8660F00F10856 /* patientInfo.m */; };
+		185BC89A187AA53400B6EA3E /* login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 185BC899187AA53400B6EA3E /* login_bg.png */; };
+		185BC89C187AA9DF00B6EA3E /* login_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 185BC89B187AA9DF00B6EA3E /* login_background.png */; };
+		185BC8A4187AACE900B6EA3E /* health.png in Resources */ = {isa = PBXBuildFile; fileRef = 185BC8A3187AACE900B6EA3E /* health.png */; };
+		185BC8A6187AAD1B00B6EA3E /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 185BC8A5187AAD1B00B6EA3E /* book.png */; };
+		186DDDD717BE0F32006B5D66 /* scheduleResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 186DDDD517BE0F32006B5D66 /* scheduleResultVC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		186DDDD817BE0F32006B5D66 /* scheduleResultVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186DDDD617BE0F32006B5D66 /* scheduleResultVC.xib */; };
+		187013E7187267D100A2D27A /* icon_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 187013E6187267D100A2D27A /* icon_29.png */; };
+		187013F418728D2900A2D27A /* rootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 187013F218728D2900A2D27A /* rootVC.m */; };
+		187013F518728D2900A2D27A /* rootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187013F318728D2900A2D27A /* rootVC.xib */; };
+		187013FF18729CCD00A2D27A /* loginFileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 187013FD18729CCD00A2D27A /* loginFileVC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1870140018729CCD00A2D27A /* loginFileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187013FE18729CCD00A2D27A /* loginFileVC.xib */; };
+		1870140218729CEE00A2D27A /* loginFileVC-iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1870140118729CEE00A2D27A /* loginFileVC-iPhone5.xib */; };
+		1870140818729F9800A2D27A /* loginVC_password.png in Resources */ = {isa = PBXBuildFile; fileRef = 1870140418729F9700A2D27A /* loginVC_password.png */; };
+		1870140918729F9800A2D27A /* loginVC_password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1870140518729F9700A2D27A /* loginVC_password@2x.png */; };
+		1870140A18729F9800A2D27A /* loginVC_username.png in Resources */ = {isa = PBXBuildFile; fileRef = 1870140618729F9800A2D27A /* loginVC_username.png */; };
+		1870140B18729F9800A2D27A /* loginVC_username@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1870140718729F9800A2D27A /* loginVC_username@2x.png */; };
+		1870141E1872BF4A00A2D27A /* loginVC_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 1870141D1872BF4A00A2D27A /* loginVC_main.png */; };
+		187C89BE18531302002E640B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187C89BD18531302002E640B /* Accelerate.framework */; };
+		188E44D017B87E200030F9D6 /* KangFuDeptSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 188E44CF17B87E200030F9D6 /* KangFuDeptSchedule.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		189920A217CD85F90005B620 /* weiboListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 189920A017CD85F90005B620 /* weiboListVC.m */; };
+		189920A317CD85F90005B620 /* weiboListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189920A117CD85F90005B620 /* weiboListVC.xib */; };
+		189920BA17CDE6770005B620 /* 12320.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920A917CDE6770005B620 /* 12320.png */; };
+		189920BB17CDE6770005B620 /* blood_Center.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920AA17CDE6770005B620 /* blood_Center.png */; };
+		189920BC17CDE6770005B620 /* Chinese_Medicine.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920AB17CDE6770005B620 /* Chinese_Medicine.png */; };
+		189920BD17CDE6770005B620 /* DanTu.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920AC17CDE6770005B620 /* DanTu.png */; };
+		189920BE17CDE6770005B620 /* First_Peoples_Hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920AD17CDE6770005B620 /* First_Peoples_Hospital.png */; };
+		189920BF17CDE6770005B620 /* Fourth_People_Hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920AE17CDE6770005B620 /* Fourth_People_Hospital.png */; };
+		189920C017CDE6770005B620 /* health_Inspection_Bureau.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920AF17CDE6770005B620 /* health_Inspection_Bureau.png */; };
+		189920C117CDE6770005B620 /* JianBi_Zhen.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920B017CDE6770005B620 /* JianBi_Zhen.png */; };
+		189920C217CDE6770005B620 /* JingKou_CDC.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920B117CDE6770005B620 /* JingKou_CDC.png */; };
+		189920C317CDE6770005B620 /* Public_Heath_Bureau.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920B217CDE6770005B620 /* Public_Heath_Bureau.png */; };
+		189920C417CDE6770005B620 /* Second_Peoples_Hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920B317CDE6770005B620 /* Second_Peoples_Hospital.png */; };
+		189920C517CDE6770005B620 /* Stomatological_Hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920B417CDE6770005B620 /* Stomatological_Hospital.png */; };
+		189920C617CDE6770005B620 /* Third_Peoples_Hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920B517CDE6770005B620 /* Third_Peoples_Hospital.png */; };
+		189920C717CDE6770005B620 /* UJS_Hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920B617CDE6770005B620 /* UJS_Hospital.png */; };
+		189920C917CDE6770005B620 /* V.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920B817CDE6770005B620 /* V.png */; };
+		189920CA17CDE6770005B620 /* Youth_League_Committee.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920B917CDE6770005B620 /* Youth_League_Committee.png */; };
+		189920CC17CDE7730005B620 /* Medical_Reform.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920CB17CDE7730005B620 /* Medical_Reform.png */; };
+		189920CE17CDE7E60005B620 /* Wisdom_Health_ZhenJiang.png in Resources */ = {isa = PBXBuildFile; fileRef = 189920CD17CDE7E60005B620 /* Wisdom_Health_ZhenJiang.png */; };
+		189920D217CDF0610005B620 /* weiboCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 189920D117CDF0610005B620 /* weiboCell.m */; };
+		189920D417CDF0700005B620 /* weiboCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189920D317CDF0700005B620 /* weiboCell.xib */; };
+		189920D817CDF90B0005B620 /* weiboMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 189920D617CDF90B0005B620 /* weiboMainVC.m */; };
+		189920D917CDF90B0005B620 /* weiboMainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189920D717CDF90B0005B620 /* weiboMainVC.xib */; };
+		189AB54817C3711E00EFF4E3 /* TPKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 189AB54717C3711E00EFF4E3 /* TPKeyboard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		189AB54B17C49E2800EFF4E3 /* ticketListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 189AB54A17C49E2800EFF4E3 /* ticketListModel.m */; };
+		189D84D317D488CF00327D19 /* urologySpecialty.htm in Resources */ = {isa = PBXBuildFile; fileRef = 189D84D217D488CE00327D19 /* urologySpecialty.htm */; };
+		189D84D517D488DA00327D19 /* GetWellSpecial.htm in Resources */ = {isa = PBXBuildFile; fileRef = 189D84D417D488DA00327D19 /* GetWellSpecial.htm */; };
+		18B6B60C188CC8750086BE90 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B6B60B188CC8750086BE90 /* down.png */; };
+		18B6B60E188CC9250086BE90 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B6B60D188CC9250086BE90 /* up.png */; };
+		18B6B61C188CD0180086BE90 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B6B61B188CD0180086BE90 /* more.png */; };
+		18B806DE17CED5F2002A0861 /* ScheduleIDByTimeSlice.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B806DD17CED5F2002A0861 /* ScheduleIDByTimeSlice.m */; };
+		18B806E217CF22E5002A0861 /* tap_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B806E117CF22E3002A0861 /* tap_button.png */; };
+		18B8843C17C1ABAB00F1B2EA /* search_Left.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8843A17C1ABAB00F1B2EA /* search_Left.png */; };
+		18B8843D17C1ABAB00F1B2EA /* search_Right.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8843B17C1ABAB00F1B2EA /* search_Right.png */; };
+		18B8843F17C1ABD100F1B2EA /* search_Field.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8843E17C1ABD100F1B2EA /* search_Field.png */; };
+		18B8844417C1B4D200F1B2EA /* scheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B8844317C1B4D200F1B2EA /* scheduleCell.xib */; };
+		18B8844617C1B6FC00F1B2EA /* divider.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8844517C1B6FC00F1B2EA /* divider.png */; };
+		18B8844917C1B83D00F1B2EA /* scheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8844817C1B83D00F1B2EA /* scheduleCell.m */; };
+		18B8844D17C1F3B000F1B2EA /* NSString+block.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8844C17C1F3B000F1B2EA /* NSString+block.m */; };
+		18B8845117C1F40200F1B2EA /* UIView+tapBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8845017C1F40200F1B2EA /* UIView+tapBlock.m */; };
+		18B8845B17C2115200F1B2EA /* popScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8845A17C2115200F1B2EA /* popScheduleCell.m */; };
+		18B8845D17C2116300F1B2EA /* popScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B8845C17C2116300F1B2EA /* popScheduleCell.xib */; };
+		18BAEA6B17D70A54003C3425 /* weiboMainVC-iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BAEA6A17D70A53003C3425 /* weiboMainVC-iPhone5.xib */; };
+		18BAEA6D17D70B4F003C3425 /* weiboListVC-iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BAEA6C17D70B4E003C3425 /* weiboListVC-iPhone5.xib */; };
+		18C39AB517C8B39E008FF3FF /* AppointRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C39AB317C8B39E008FF3FF /* AppointRecord.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18C39AB617C8B39E008FF3FF /* AppointRecord.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C39AB417C8B39E008FF3FF /* AppointRecord.xib */; };
+		18C39ABA17C8B4AB008FF3FF /* appointRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C39AB917C8B4AB008FF3FF /* appointRecordCell.m */; };
+		18C39ABC17C8B4BD008FF3FF /* appointRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C39ABB17C8B4BD008FF3FF /* appointRecordCell.xib */; };
+		18C39AC017C8B5B3008FF3FF /* queryAppRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C39ABF17C8B5B3008FF3FF /* queryAppRecord.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18C87D4E18531358003341EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C87D4D18531358003341EC /* QuartzCore.framework */; };
+		18CBFA5117AF4132006A5FEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CBFA5017AF4132006A5FEE /* UIKit.framework */; };
+		18CBFA5317AF4132006A5FEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CBFA5217AF4132006A5FEE /* Foundation.framework */; };
+		18CBFA5517AF4132006A5FEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CBFA5417AF4132006A5FEE /* CoreGraphics.framework */; };
+		18CBFA5B17AF4132006A5FEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFA5917AF4132006A5FEE /* InfoPlist.strings */; };
+		18CBFA5D17AF4132006A5FEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFA5C17AF4132006A5FEE /* main.m */; };
+		18CBFA6117AF4132006A5FEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFA6017AF4132006A5FEE /* AppDelegate.m */; };
+		18CBFAAE17AF41C8006A5FEE /* UIDevice+help.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFA9B17AF41C8006A5FEE /* UIDevice+help.m */; };
+		18CBFAAF17AF41C8006A5FEE /* UIView+toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFA9E17AF41C8006A5FEE /* UIView+toast.m */; };
+		18CBFAB017AF41C8006A5FEE /* UIViewController+help.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFAA117AF41C8006A5FEE /* UIViewController+help.m */; };
+		18CBFAB317AF41C8006A5FEE /* FLActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFAAA17AF41C8006A5FEE /* FLActivity.m */; };
+		18CBFAB417AF41C8006A5FEE /* FLtableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFAAD17AF41C8006A5FEE /* FLtableViewCell.m */; };
+		18CBFABE17AF4310006A5FEE /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFABC17AF4310006A5FEE /* MainVC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18CBFAC117AF434B006A5FEE /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFAC017AF434B006A5FEE /* MainVC.xib */; };
+		18CBFAC317AF435E006A5FEE /* MainVC-iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFAC217AF435E006A5FEE /* MainVC-iPhone5.xib */; };
+		18CBFACB17AF931B006A5FEE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFAC817AF931B006A5FEE /* Default-568h@2x.png */; };
+		18CBFACC17AF931B006A5FEE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFAC917AF931B006A5FEE /* Default.png */; };
+		18CBFACD17AF931B006A5FEE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFACA17AF931B006A5FEE /* Default@2x.png */; };
+		18CBFAD417AF9CC4006A5FEE /* SGFocusImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFAD117AF9CC4006A5FEE /* SGFocusImageFrame.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18CBFAD517AF9CC4006A5FEE /* SGFocusImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFAD317AF9CC4006A5FEE /* SGFocusImageItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18CBFAD717AFA1F9006A5FEE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CBFAD617AFA1F8006A5FEE /* CFNetwork.framework */; };
+		18CBFAD917AFA215006A5FEE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CBFAD817AFA215006A5FEE /* SystemConfiguration.framework */; };
+		18CBFADC17AFA5D0006A5FEE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CBFADA17AFA39F006A5FEE /* libz.dylib */; };
+		18CBFADF17AFA78D006A5FEE /* MainVC_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFADE17AFA78D006A5FEE /* MainVC_background.png */; };
+		18CBFAE117AFA846006A5FEE /* MainVC_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFAE017AFA845006A5FEE /* MainVC_background@2x.png */; };
+		18CBFAE317AFA8BA006A5FEE /* MainVC_background-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFAE217AFA8BA006A5FEE /* MainVC_background-568h@2x.png */; };
+		18CBFAE517B0A2AE006A5FEE /* personal_service.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFAE417B0A2AD006A5FEE /* personal_service.png */; };
+		18CBFAE717B0A2D0006A5FEE /* hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFAE617B0A2D0006A5FEE /* hospital.png */; };
+		18CBFAE917B0A2ED006A5FEE /* register_guahao.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFAE817B0A2ED006A5FEE /* register_guahao.png */; };
+		18CBFAEB17B0A41F006A5FEE /* more_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFAEA17B0A41E006A5FEE /* more_info.png */; };
+		18CBFAF217B0D1E3006A5FEE /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFAEC17B0D1E0006A5FEE /* pic1.jpg */; };
+		18CBFAF317B0D1E3006A5FEE /* pic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFAED17B0D1E0006A5FEE /* pic2.jpg */; };
+		18CBFAF417B0D1E3006A5FEE /* pic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFAEE17B0D1E1006A5FEE /* pic3.jpg */; };
+		18CBFAF517B0D1E3006A5FEE /* pic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFAEF17B0D1E1006A5FEE /* pic4.jpg */; };
+		18CBFAF617B0D1E3006A5FEE /* pic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFAF017B0D1E2006A5FEE /* pic5.jpg */; };
+		18CBFAF717B0D1E3006A5FEE /* pic6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CBFAF117B0D1E3006A5FEE /* pic6.jpg */; };
+		18CBFB1A17B0D7C6006A5FEE /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFAFE17B0D7C6006A5FEE /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18CBFB1B17B0D7C6006A5FEE /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFB0117B0D7C6006A5FEE /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18CBFB1C17B0D7C6006A5FEE /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFB0317B0D7C6006A5FEE /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18CBFB1D17B0D7C6006A5FEE /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFB0517B0D7C6006A5FEE /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18CBFB1E17B0D7C6006A5FEE /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFB0717B0D7C6006A5FEE /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18CBFB1F17B0D7C6006A5FEE /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFB0917B0D7C6006A5FEE /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18CBFB2017B0D7C6006A5FEE /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFB0D17B0D7C6006A5FEE /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18CBFB2117B0D7C6006A5FEE /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFB0F17B0D7C6006A5FEE /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18CBFB2217B0D7C6006A5FEE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFB1317B0D7C6006A5FEE /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18CBFB2317B0D7C6006A5FEE /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFB1617B0D7C6006A5FEE /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18CBFB2417B0D7C6006A5FEE /* SoapXmlParseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFB1917B0D7C6006A5FEE /* SoapXmlParseHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18CBFB2717B0D7FA006A5FEE /* NetWebServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFB2617B0D7FA006A5FEE /* NetWebServiceRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18CBFB2F17B1D417006A5FEE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CBFB2D17B1D40C006A5FEE /* libxml2.dylib */; };
+		18CBFB3417B1D7BA006A5FEE /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CBFB3017B1D43D006A5FEE /* libxml2.2.dylib */; };
+		18CBFB3517B1D7BD006A5FEE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CBFB3217B1D79D006A5FEE /* MobileCoreServices.framework */; };
+		18CBFB3817B1EB7D006A5FEE /* Webservices.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBFB3717B1EB7D006A5FEE /* Webservices.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18DF41271873E339008E9164 /* rootVC-iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DF41261873E339008E9164 /* rootVC-iPhone5.xib */; };
+		18DF412C1873F4AE008E9164 /* personalInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DF412A1873F4AE008E9164 /* personalInfoVC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18DF412D1873F4AE008E9164 /* personalInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DF412B1873F4AE008E9164 /* personalInfoVC.xib */; };
+		18DF412F1873F4C4008E9164 /* personalInfoVC-iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DF412E1873F4C4008E9164 /* personalInfoVC-iPhone5.xib */; };
+		18DF4138187505F0008E9164 /* personalInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DF4137187505F0008E9164 /* personalInfoCell.m */; };
+		18DF413B1875060F008E9164 /* personalInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DF413A1875060F008E9164 /* personalInfoCell.xib */; };
+		18E4A5BE1887AFE600302607 /* requestFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4A5BD1887AFE600302607 /* requestFiles.m */; };
+		18E4A5C11887CA1C00302607 /* parseXmlToArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4A5C01887CA1C00302607 /* parseXmlToArray.m */; };
+		18E4A5D11889193100302607 /* summaryDetailInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4A5CF1889193100302607 /* summaryDetailInfoVC.m */; };
+		18E4A5D21889193100302607 /* summaryDetailInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E4A5D01889193100302607 /* summaryDetailInfoVC.xib */; };
+		18E4A5D41889194400302607 /* summaryDetailInfoVC-iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E4A5D31889194400302607 /* summaryDetailInfoVC-iPhone5.xib */; };
+		18E4A5E21889298300302607 /* moreInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4A5E01889298300302607 /* moreInfoVC.m */; };
+		18E4A5E31889298300302607 /* moreInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E4A5E11889298300302607 /* moreInfoVC.xib */; };
+		18E4A5E918892BA000302607 /* moreInfoVC-iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E4A5E818892BA000302607 /* moreInfoVC-iPhone5.xib */; };
+		18E5BCAB17BB1755003C8205 /* GetXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BCAA17BB1755003C8205 /* GetXML.m */; };
+		18E5BCB217BB9BAA003C8205 /* popAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BCB117BB9BAA003C8205 /* popAlertView.m */; };
+		18E5BCB617BCC38E003C8205 /* searchList.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BCB517BCC38E003C8205 /* searchList.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18E5BCBA17BDA69C003C8205 /* searchListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BCB917BDA69C003C8205 /* searchListModel.m */; };
+		18E5BCBD17BDCF84003C8205 /* deptAppointmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BCBC17BDCF84003C8205 /* deptAppointmentModel.m */; };
+		18E8B64B187BE106005C4F08 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E8B64A187BE106005C4F08 /* bar.png */; };
+		18E9F49F185542F500DD103C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E9F49E185542F500DD103C /* Images.xcassets */; };
+		18E9F4A11855474100DD103C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9F4A01855474100DD103C /* icon.png */; };
+		18E9F4A3185547A000DD103C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9F4A2185547A000DD103C /* icon@2x.png */; };
+		18E9F4A7185547C500DD103C /* icon_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9F4A4185547C500DD103C /* icon_58.png */; };
+		18E9F4A8185547C500DD103C /* icon_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9F4A5185547C500DD103C /* icon_80.png */; };
+		18E9F4A9185547C500DD103C /* icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9F4A6185547C500DD103C /* icon_120.png */; };
+		18E9F4AB1855492400DD103C /* icon_144.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E9F4AA1855492400DD103C /* icon_144.png */; };
+		18F259B817B4EA6E00B93A5F /* getDepartmentByHospital.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F259B717B4EA6E00B93A5F /* getDepartmentByHospital.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18F259BC17B4EDCE00B93A5F /* departmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F259BB17B4EDCE00B93A5F /* departmentModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FC0208E17C75447009A656C /* PersonalServiceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalServiceVC.h; sourceTree = "<group>"; };
+		0FC0208F17C75447009A656C /* PersonalServiceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalServiceVC.m; sourceTree = "<group>"; };
+		0FC0209017C75447009A656C /* PersonalServiceVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalServiceVC.xib; sourceTree = "<group>"; };
+		0FC0887917C2FA0700EC5CBD /* FamousHospital.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamousHospital.h; sourceTree = "<group>"; };
+		0FC0887A17C2FA0700EC5CBD /* FamousHospital.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamousHospital.m; sourceTree = "<group>"; };
+		0FC0887B17C2FA0700EC5CBD /* FamousHospital.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FamousHospital.xib; sourceTree = "<group>"; };
+		0FC0888717C30CEE00EC5CBD /* FamousHospitalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamousHospitalCell.h; sourceTree = "<group>"; };
+		0FC0888817C30CEE00EC5CBD /* FamousHospitalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamousHospitalCell.m; sourceTree = "<group>"; };
+		0FC0888917C30CEE00EC5CBD /* FamousHospitalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FamousHospitalCell.xib; sourceTree = "<group>"; };
+		0FD1CF5817C34E73008A1BF2 /* 0.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 0.html; sourceTree = "<group>"; };
+		0FD1CF5917C34E73008A1BF2 /* 1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1.html; sourceTree = "<group>"; };
+		0FD1CF5A17C34E73008A1BF2 /* 2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 2.html; sourceTree = "<group>"; };
+		0FD1CF5B17C34E73008A1BF2 /* 3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 3.html; sourceTree = "<group>"; };
+		0FD1CF5C17C34E73008A1BF2 /* 4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 4.html; sourceTree = "<group>"; };
+		0FD1CF5D17C34E73008A1BF2 /* 5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 5.html; sourceTree = "<group>"; };
+		0FD1CF5E17C34E73008A1BF2 /* braincenter.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = braincenter.htm; sourceTree = "<group>"; };
+		0FD1CF5F17C34E73008A1BF2 /* cardiology.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cardiology.htm; sourceTree = "<group>"; };
+		0FD1CF6017C34E73008A1BF2 /* chestsurgical.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = chestsurgical.htm; sourceTree = "<group>"; };
+		0FD1CF6117C34E73008A1BF2 /* childprotection.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = childprotection.htm; sourceTree = "<group>"; };
+		0FD1CF6217C34E73008A1BF2 /* criticalcaremedicine.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = criticalcaremedicine.htm; sourceTree = "<group>"; };
+		0FD1CF6417C34E73008A1BF2 /* dermatology.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dermatology.htm; sourceTree = "<group>"; };
+		0FD1CF6517C34E73008A1BF2 /* liverdiseasebranch.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = liverdiseasebranch.htm; sourceTree = "<group>"; };
+		0FD1CF6617C34E73008A1BF2 /* obstetrics.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = obstetrics.htm; sourceTree = "<group>"; };
+		0FD1CF6717C34E73008A1BF2 /* obstetricsandgynecology.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = obstetricsandgynecology.htm; sourceTree = "<group>"; };
+		0FD1CF6817C34E73008A1BF2 /* ophthalmology.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ophthalmology.htm; sourceTree = "<group>"; };
+		0FD1CF6917C34E73008A1BF2 /* orthopedics.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = orthopedics.htm; sourceTree = "<group>"; };
+		0FD1CF7D17C35122008A1BF2 /* HospitalWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalWebView.h; sourceTree = "<group>"; };
+		0FD1CF7E17C35122008A1BF2 /* HospitalWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalWebView.m; sourceTree = "<group>"; };
+		0FD1CF7F17C35122008A1BF2 /* HospitalWebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HospitalWebView.xib; sourceTree = "<group>"; };
+		0FD1CF8217C365A7008A1BF2 /* traditionalchineseinternalmedicine.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = traditionalchineseinternalmedicine.htm; sourceTree = "<group>"; };
+		1805073417B8643F00CF8C43 /* ConfirmAppointment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmAppointment.h; sourceTree = "<group>"; };
+		1805073517B8643F00CF8C43 /* ConfirmAppointment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmAppointment.m; sourceTree = "<group>"; };
+		1805073817B86B8900CF8C43 /* confirmModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = confirmModel.h; sourceTree = "<group>"; };
+		1805073917B86B8900CF8C43 /* confirmModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = confirmModel.m; sourceTree = "<group>"; };
+		180CA70017B376B70089BB1D /* MakeAppointmentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeAppointmentVC.h; sourceTree = "<group>"; };
+		180CA70117B376B70089BB1D /* MakeAppointmentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeAppointmentVC.m; sourceTree = "<group>"; };
+		180CA70217B376B70089BB1D /* MakeAppointmentVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MakeAppointmentVC.xib; sourceTree = "<group>"; };
+		180CA70617B378C90089BB1D /* Appoint_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Appoint_background.png; sourceTree = "<group>"; };
+		180CA70717B378C90089BB1D /* Appoint_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appoint_background@2x.png"; sourceTree = "<group>"; };
+		180CA70A17B378FA0089BB1D /* radio_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_pressed.png; sourceTree = "<group>"; };
+		180CA70B17B378FA0089BB1D /* radio_unpressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_unpressed.png; sourceTree = "<group>"; };
+		180CA71017B37A6B0089BB1D /* comm_arrow_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comm_arrow_press.png; sourceTree = "<group>"; };
+		180CA71117B37A6B0089BB1D /* comm_other_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comm_other_arrow.png; sourceTree = "<group>"; };
+		180CA71417B37A7F0089BB1D /* group_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group_bg.png; sourceTree = "<group>"; };
+		180CA72517B391000089BB1D /* hospitalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hospitalModel.h; sourceTree = "<group>"; };
+		180CA72617B391000089BB1D /* hospitalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hospitalModel.m; sourceTree = "<group>"; };
+		1815EF5218764AE200F2CA15 /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
+		1815EF5318764AE200F2CA15 /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
+		1815EF5418764AE200F2CA15 /* MJRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBaseView.h; sourceTree = "<group>"; };
+		1815EF5518764AE200F2CA15 /* MJRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBaseView.m; sourceTree = "<group>"; };
+		1815EF5618764AE200F2CA15 /* MJRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooterView.h; sourceTree = "<group>"; };
+		1815EF5718764AE200F2CA15 /* MJRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshFooterView.m; sourceTree = "<group>"; };
+		1815EF5818764AE200F2CA15 /* MJRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshHeaderView.h; sourceTree = "<group>"; };
+		1815EF5918764AE200F2CA15 /* MJRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeaderView.m; sourceTree = "<group>"; };
+		1817EB1317B4738700010843 /* hospital_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hospital_bg.png; sourceTree = "<group>"; };
+		1817EB1517B4780700010843 /* yuyueguahao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuyueguahao.png; sourceTree = "<group>"; };
+		1817EB1817B47A3D00010843 /* hospitalAppointVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hospitalAppointVC.h; sourceTree = "<group>"; };
+		1817EB1917B47A3D00010843 /* hospitalAppointVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hospitalAppointVC.m; sourceTree = "<group>"; };
+		1817EB1A17B47A3D00010843 /* hospitalAppointVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = hospitalAppointVC.xib; sourceTree = "<group>"; };
+		1817EB1D17B4822100010843 /* settings_dropdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_dropdown.png; sourceTree = "<group>"; };
+		1817EB1F17B4833800010843 /* field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = field.png; sourceTree = "<group>"; };
+		1817EB2517B48FD300010843 /* getHospital.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getHospital.h; sourceTree = "<group>"; };
+		1817EB2617B48FD300010843 /* getHospital.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getHospital.m; sourceTree = "<group>"; };
+		181ABFEE17D9AA4600BB1003 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		181ABFEF17D9AA4600BB1003 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		181ABFF017D9AA4600BB1003 /* AWVersionAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWVersionAgent.h; sourceTree = "<group>"; };
+		181ABFF117D9AA4600BB1003 /* AWVersionAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWVersionAgent.m; sourceTree = "<group>"; };
+		1850818817C9DAC000E62724 /* appRecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appRecordModel.h; sourceTree = "<group>"; };
+		1850818917C9DAC000E62724 /* appRecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = appRecordModel.m; sourceTree = "<group>"; };
+		1850818C17CAD1F200E62724 /* MakeAppointmentVC-iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "MakeAppointmentVC-iPhone5.xib"; sourceTree = "<group>"; };
+		1850818E17CAD53B00E62724 /* hospitalAppointVC-iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "hospitalAppointVC-iPhone5.xib"; sourceTree = "<group>"; };
+		1850819017CAD73200E62724 /* scheduleResultVC-iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "scheduleResultVC-iPhone5.xib"; sourceTree = "<group>"; };
+		1850819217CAE18600E62724 /* FamousHospital-iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "FamousHospital-iPhone5.xib"; sourceTree = "<group>"; };
+		1850819417CAE25800E62724 /* HospitalWebView-iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HospitalWebView-iPhone5.xib"; sourceTree = "<group>"; };
+		1850819617CAED0E00E62724 /* PersonalServiceVC-iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PersonalServiceVC-iPhone5.xib"; sourceTree = "<group>"; };
+		1850819A17CAFF3D00E62724 /* AppointRecord-iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "AppointRecord-iPhone5.xib"; sourceTree = "<group>"; };
+		1850819C17CB000900E62724 /* KangFuAppointRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KangFuAppointRecord.h; sourceTree = "<group>"; };
+		1850819D17CB000900E62724 /* KangFuAppointRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KangFuAppointRecord.m; sourceTree = "<group>"; };
+		1850819E17CB000900E62724 /* KangFuAppointRecord.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KangFuAppointRecord.xib; sourceTree = "<group>"; };
+		185081A117CB47B800E62724 /* KangFuAppointRecord-iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "KangFuAppointRecord-iPhone.xib"; sourceTree = "<group>"; };
+		185081A417CB513300E62724 /* cancelAppointment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cancelAppointment.h; sourceTree = "<group>"; };
+		185081A517CB513300E62724 /* cancelAppointment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cancelAppointment.m; sourceTree = "<group>"; };
+		1855ED1F17C5B34700F10856 /* regPatientInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regPatientInfo.h; sourceTree = "<group>"; };
+		1855ED2017C5B34700F10856 /* regPatientInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = regPatientInfo.m; sourceTree = "<group>"; };
+		1855ED2217C6101500F10856 /* expertScheduleInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = expertScheduleInfo.h; sourceTree = "<group>"; };
+		1855ED2317C6101500F10856 /* expertScheduleInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = expertScheduleInfo.m; sourceTree = "<group>"; };
+		1855ED2617C612CA00F10856 /* expertResourceScheduleDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = expertResourceScheduleDetail.h; sourceTree = "<group>"; };
+		1855ED2717C612CA00F10856 /* expertResourceScheduleDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = expertResourceScheduleDetail.m; sourceTree = "<group>"; };
+		1855ED2917C6491800F10856 /* expertInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = expertInfoModel.h; sourceTree = "<group>"; };
+		1855ED2A17C6491800F10856 /* expertInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = expertInfoModel.m; sourceTree = "<group>"; };
+		1855ED2C17C7001B00F10856 /* expertScheduleDetalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = expertScheduleDetalModel.h; sourceTree = "<group>"; };
+		1855ED2D17C7001B00F10856 /* expertScheduleDetalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = expertScheduleDetalModel.m; sourceTree = "<group>"; };
+		1855ED3117C85CD000F10856 /* getPatientInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getPatientInfo.h; sourceTree = "<group>"; };
+		1855ED3217C85CD000F10856 /* getPatientInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getPatientInfo.m; sourceTree = "<group>"; };
+		1855ED3417C8660F00F10856 /* patientInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = patientInfo.h; sourceTree = "<group>"; };
+		1855ED3517C8660F00F10856 /* patientInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = patientInfo.m; sourceTree = "<group>"; };
+		185BC899187AA53400B6EA3E /* login_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_bg.png; sourceTree = "<group>"; };
+		185BC89B187AA9DF00B6EA3E /* login_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_background.png; sourceTree = "<group>"; };
+		185BC8A3187AACE900B6EA3E /* health.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = health.png; sourceTree = "<group>"; };
+		185BC8A5187AAD1B00B6EA3E /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		186DDDD417BE0F32006B5D66 /* scheduleResultVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scheduleResultVC.h; sourceTree = "<group>"; };
+		186DDDD517BE0F32006B5D66 /* scheduleResultVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scheduleResultVC.m; sourceTree = "<group>"; };
+		186DDDD617BE0F32006B5D66 /* scheduleResultVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = scheduleResultVC.xib; sourceTree = "<group>"; };
+		187013E6187267D100A2D27A /* icon_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_29.png; sourceTree = "<group>"; };
+		187013F118728D2900A2D27A /* rootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rootVC.h; path = MedicalService/rootVC.h; sourceTree = SOURCE_ROOT; };
+		187013F218728D2900A2D27A /* rootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = rootVC.m; path = MedicalService/rootVC.m; sourceTree = SOURCE_ROOT; };
+		187013F318728D2900A2D27A /* rootVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = rootVC.xib; path = MedicalService/rootVC.xib; sourceTree = SOURCE_ROOT; };
+		187013FC18729CCD00A2D27A /* loginFileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginFileVC.h; sourceTree = "<group>"; };
+		187013FD18729CCD00A2D27A /* loginFileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginFileVC.m; sourceTree = "<group>"; };
+		187013FE18729CCD00A2D27A /* loginFileVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loginFileVC.xib; sourceTree = "<group>"; };
+		1870140118729CEE00A2D27A /* loginFileVC-iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "loginFileVC-iPhone5.xib"; sourceTree = "<group>"; };
+		1870140418729F9700A2D27A /* loginVC_password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginVC_password.png; sourceTree = "<group>"; };
+		1870140518729F9700A2D27A /* loginVC_password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginVC_password@2x.png"; sourceTree = "<group>"; };
+		1870140618729F9800A2D27A /* loginVC_username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginVC_username.png; sourceTree = "<group>"; };
+		1870140718729F9800A2D27A /* loginVC_username@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginVC_username@2x.png"; sourceTree = "<group>"; };
+		187014191872A8E200A2D27A /* weblink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weblink.h; sourceTree = "<group>"; };
+		1870141D1872BF4A00A2D27A /* loginVC_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginVC_main.png; sourceTree = "<group>"; };
+		187C89BD18531302002E640B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		188E44CE17B87E200030F9D6 /* KangFuDeptSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KangFuDeptSchedule.h; sourceTree = "<group>"; };
+		188E44CF17B87E200030F9D6 /* KangFuDeptSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KangFuDeptSchedule.m; sourceTree = "<group>"; };
+		1899209F17CD85F90005B620 /* weiboListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weiboListVC.h; sourceTree = "<group>"; };
+		189920A017CD85F90005B620 /* weiboListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weiboListVC.m; sourceTree = "<group>"; };
+		189920A117CD85F90005B620 /* weiboListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = weiboListVC.xib; sourceTree = "<group>"; };
+		189920A917CDE6770005B620 /* 12320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12320.png; sourceTree = "<group>"; };
+		189920AA17CDE6770005B620 /* blood_Center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blood_Center.png; sourceTree = "<group>"; };
+		189920AB17CDE6770005B620 /* Chinese_Medicine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chinese_Medicine.png; sourceTree = "<group>"; };
+		189920AC17CDE6770005B620 /* DanTu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DanTu.png; sourceTree = "<group>"; };
+		189920AD17CDE6770005B620 /* First_Peoples_Hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = First_Peoples_Hospital.png; sourceTree = "<group>"; };
+		189920AE17CDE6770005B620 /* Fourth_People_Hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fourth_People_Hospital.png; sourceTree = "<group>"; };
+		189920AF17CDE6770005B620 /* health_Inspection_Bureau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = health_Inspection_Bureau.png; sourceTree = "<group>"; };
+		189920B017CDE6770005B620 /* JianBi_Zhen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JianBi_Zhen.png; sourceTree = "<group>"; };
+		189920B117CDE6770005B620 /* JingKou_CDC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JingKou_CDC.png; sourceTree = "<group>"; };
+		189920B217CDE6770005B620 /* Public_Heath_Bureau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Public_Heath_Bureau.png; sourceTree = "<group>"; };
+		189920B317CDE6770005B620 /* Second_Peoples_Hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Second_Peoples_Hospital.png; sourceTree = "<group>"; };
+		189920B417CDE6770005B620 /* Stomatological_Hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stomatological_Hospital.png; sourceTree = "<group>"; };
+		189920B517CDE6770005B620 /* Third_Peoples_Hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Third_Peoples_Hospital.png; sourceTree = "<group>"; };
+		189920B617CDE6770005B620 /* UJS_Hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UJS_Hospital.png; sourceTree = "<group>"; };
+		189920B817CDE6770005B620 /* V.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = V.png; sourceTree = "<group>"; };
+		189920B917CDE6770005B620 /* Youth_League_Committee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Youth_League_Committee.png; sourceTree = "<group>"; };
+		189920CB17CDE7730005B620 /* Medical_Reform.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Medical_Reform.png; sourceTree = "<group>"; };
+		189920CD17CDE7E60005B620 /* Wisdom_Health_ZhenJiang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wisdom_Health_ZhenJiang.png; sourceTree = "<group>"; };
+		189920D017CDF0610005B620 /* weiboCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weiboCell.h; sourceTree = "<group>"; };
+		189920D117CDF0610005B620 /* weiboCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weiboCell.m; sourceTree = "<group>"; };
+		189920D317CDF0700005B620 /* weiboCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = weiboCell.xib; sourceTree = "<group>"; };
+		189920D517CDF90B0005B620 /* weiboMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weiboMainVC.h; sourceTree = "<group>"; };
+		189920D617CDF90B0005B620 /* weiboMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weiboMainVC.m; sourceTree = "<group>"; };
+		189920D717CDF90B0005B620 /* weiboMainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = weiboMainVC.xib; sourceTree = "<group>"; };
+		189AB53F17C2FB0D00EFF4E3 /* deptTimeScheduleService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deptTimeScheduleService.h; sourceTree = "<group>"; };
+		189AB54017C2FB0D00EFF4E3 /* deptTimeScheduleService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = deptTimeScheduleService.m; sourceTree = "<group>"; };
+		189AB54317C2FB2600EFF4E3 /* deptTimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deptTimeModel.h; sourceTree = "<group>"; };
+		189AB54417C2FB2600EFF4E3 /* deptTimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = deptTimeModel.m; sourceTree = "<group>"; };
+		189AB54617C3711E00EFF4E3 /* TPKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboard.h; sourceTree = "<group>"; };
+		189AB54717C3711E00EFF4E3 /* TPKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboard.m; sourceTree = "<group>"; };
+		189AB54917C49E2800EFF4E3 /* ticketListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ticketListModel.h; sourceTree = "<group>"; };
+		189AB54A17C49E2800EFF4E3 /* ticketListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ticketListModel.m; sourceTree = "<group>"; };
+		189D84D217D488CE00327D19 /* urologySpecialty.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = urologySpecialty.htm; sourceTree = "<group>"; };
+		189D84D417D488DA00327D19 /* GetWellSpecial.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = GetWellSpecial.htm; sourceTree = "<group>"; };
+		18B6B60B188CC8750086BE90 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		18B6B60D188CC9250086BE90 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		18B6B61B188CD0180086BE90 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
+		18B806DC17CED5F2002A0861 /* ScheduleIDByTimeSlice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleIDByTimeSlice.h; sourceTree = "<group>"; };
+		18B806DD17CED5F2002A0861 /* ScheduleIDByTimeSlice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleIDByTimeSlice.m; sourceTree = "<group>"; };
+		18B806E117CF22E3002A0861 /* tap_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap_button.png; sourceTree = "<group>"; };
+		18B806E317D16F32002A0861 /* AppointHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppointHeader.h; sourceTree = "<group>"; };
+		18B8843A17C1ABAB00F1B2EA /* search_Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_Left.png; sourceTree = "<group>"; };
+		18B8843B17C1ABAB00F1B2EA /* search_Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_Right.png; sourceTree = "<group>"; };
+		18B8843E17C1ABD100F1B2EA /* search_Field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_Field.png; sourceTree = "<group>"; };
+		18B8844317C1B4D200F1B2EA /* scheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = scheduleCell.xib; sourceTree = "<group>"; };
+		18B8844517C1B6FC00F1B2EA /* divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = divider.png; sourceTree = "<group>"; };
+		18B8844717C1B83D00F1B2EA /* scheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scheduleCell.h; sourceTree = "<group>"; };
+		18B8844817C1B83D00F1B2EA /* scheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scheduleCell.m; sourceTree = "<group>"; };
+		18B8844B17C1F3B000F1B2EA /* NSString+block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+block.h"; sourceTree = "<group>"; };
+		18B8844C17C1F3B000F1B2EA /* NSString+block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+block.m"; sourceTree = "<group>"; };
+		18B8844F17C1F40200F1B2EA /* UIView+tapBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+tapBlock.h"; sourceTree = "<group>"; };
+		18B8845017C1F40200F1B2EA /* UIView+tapBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+tapBlock.m"; sourceTree = "<group>"; };
+		18B8845917C2115100F1B2EA /* popScheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = popScheduleCell.h; sourceTree = "<group>"; };
+		18B8845A17C2115200F1B2EA /* popScheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = popScheduleCell.m; sourceTree = "<group>"; };
+		18B8845C17C2116300F1B2EA /* popScheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = popScheduleCell.xib; sourceTree = "<group>"; };
+		18BAEA6A17D70A53003C3425 /* weiboMainVC-iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "weiboMainVC-iPhone5.xib"; sourceTree = "<group>"; };
+		18BAEA6C17D70B4E003C3425 /* weiboListVC-iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "weiboListVC-iPhone5.xib"; sourceTree = "<group>"; };
+		18C39AB217C8B39E008FF3FF /* AppointRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointRecord.h; sourceTree = "<group>"; };
+		18C39AB317C8B39E008FF3FF /* AppointRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointRecord.m; sourceTree = "<group>"; };
+		18C39AB417C8B39E008FF3FF /* AppointRecord.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppointRecord.xib; sourceTree = "<group>"; };
+		18C39AB817C8B4AB008FF3FF /* appointRecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appointRecordCell.h; sourceTree = "<group>"; };
+		18C39AB917C8B4AB008FF3FF /* appointRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = appointRecordCell.m; sourceTree = "<group>"; };
+		18C39ABB17C8B4BD008FF3FF /* appointRecordCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = appointRecordCell.xib; sourceTree = "<group>"; };
+		18C39ABE17C8B5B3008FF3FF /* queryAppRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queryAppRecord.h; sourceTree = "<group>"; };
+		18C39ABF17C8B5B3008FF3FF /* queryAppRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = queryAppRecord.m; sourceTree = "<group>"; };
+		18C87D4D18531358003341EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18CBFA4D17AF4132006A5FEE /* 镇江掌上医疗.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "镇江掌上医疗.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CBFA5017AF4132006A5FEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18CBFA5217AF4132006A5FEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18CBFA5417AF4132006A5FEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18CBFA5817AF4132006A5FEE /* MedicalService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedicalService-Info.plist"; sourceTree = "<group>"; };
+		18CBFA5A17AF4132006A5FEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18CBFA5C17AF4132006A5FEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CBFA5E17AF4132006A5FEE /* MedicalService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MedicalService-Prefix.pch"; sourceTree = "<group>"; };
+		18CBFA5F17AF4132006A5FEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		18CBFA6017AF4132006A5FEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		18CBFA9717AF41C8006A5FEE /* FLDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLDefines.h; sourceTree = "<group>"; };
+		18CBFA9A17AF41C8006A5FEE /* UIDevice+help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+help.h"; sourceTree = "<group>"; };
+		18CBFA9B17AF41C8006A5FEE /* UIDevice+help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+help.m"; sourceTree = "<group>"; };
+		18CBFA9D17AF41C8006A5FEE /* UIView+toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+toast.h"; sourceTree = "<group>"; };
+		18CBFA9E17AF41C8006A5FEE /* UIView+toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+toast.m"; sourceTree = "<group>"; };
+		18CBFAA017AF41C8006A5FEE /* UIViewController+help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+help.h"; sourceTree = "<group>"; };
+		18CBFAA117AF41C8006A5FEE /* UIViewController+help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+help.m"; sourceTree = "<group>"; };
+		18CBFAA917AF41C8006A5FEE /* FLActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLActivity.h; sourceTree = "<group>"; };
+		18CBFAAA17AF41C8006A5FEE /* FLActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLActivity.m; sourceTree = "<group>"; };
+		18CBFAAC17AF41C8006A5FEE /* FLtableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLtableViewCell.h; sourceTree = "<group>"; };
+		18CBFAAD17AF41C8006A5FEE /* FLtableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLtableViewCell.m; sourceTree = "<group>"; };
+		18CBFABB17AF4310006A5FEE /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		18CBFABC17AF4310006A5FEE /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		18CBFAC017AF434B006A5FEE /* MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		18CBFAC217AF435E006A5FEE /* MainVC-iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "MainVC-iPhone5.xib"; sourceTree = "<group>"; };
+		18CBFAC817AF931B006A5FEE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18CBFAC917AF931B006A5FEE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		18CBFACA17AF931B006A5FEE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		18CBFAD017AF9CC4006A5FEE /* SGFocusImageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGFocusImageFrame.h; sourceTree = "<group>"; };
+		18CBFAD117AF9CC4006A5FEE /* SGFocusImageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGFocusImageFrame.m; sourceTree = "<group>"; };
+		18CBFAD217AF9CC4006A5FEE /* SGFocusImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGFocusImageItem.h; sourceTree = "<group>"; };
+		18CBFAD317AF9CC4006A5FEE /* SGFocusImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGFocusImageItem.m; sourceTree = "<group>"; };
+		18CBFAD617AFA1F8006A5FEE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18CBFAD817AFA215006A5FEE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18CBFADA17AFA39F006A5FEE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		18CBFADE17AFA78D006A5FEE /* MainVC_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainVC_background.png; sourceTree = "<group>"; };
+		18CBFAE017AFA845006A5FEE /* MainVC_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MainVC_background@2x.png"; sourceTree = "<group>"; };
+		18CBFAE217AFA8BA006A5FEE /* MainVC_background-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MainVC_background-568h@2x.png"; sourceTree = "<group>"; };
+		18CBFAE417B0A2AD006A5FEE /* personal_service.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personal_service.png; sourceTree = "<group>"; };
+		18CBFAE617B0A2D0006A5FEE /* hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hospital.png; sourceTree = "<group>"; };
+		18CBFAE817B0A2ED006A5FEE /* register_guahao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register_guahao.png; sourceTree = "<group>"; };
+		18CBFAEA17B0A41E006A5FEE /* more_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more_info.png; sourceTree = "<group>"; };
+		18CBFAEC17B0D1E0006A5FEE /* pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic1.jpg; sourceTree = "<group>"; };
+		18CBFAED17B0D1E0006A5FEE /* pic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic2.jpg; sourceTree = "<group>"; };
+		18CBFAEE17B0D1E1006A5FEE /* pic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic3.jpg; sourceTree = "<group>"; };
+		18CBFAEF17B0D1E1006A5FEE /* pic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic4.jpg; sourceTree = "<group>"; };
+		18CBFAF017B0D1E2006A5FEE /* pic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic5.jpg; sourceTree = "<group>"; };
+		18CBFAF117B0D1E3006A5FEE /* pic6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic6.jpg; sourceTree = "<group>"; };
+		18CBFAFD17B0D7C6006A5FEE /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		18CBFAFE17B0D7C6006A5FEE /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		18CBFAFF17B0D7C6006A5FEE /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		18CBFB0017B0D7C6006A5FEE /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		18CBFB0117B0D7C6006A5FEE /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		18CBFB0217B0D7C6006A5FEE /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		18CBFB0317B0D7C6006A5FEE /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		18CBFB0417B0D7C6006A5FEE /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		18CBFB0517B0D7C6006A5FEE /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		18CBFB0617B0D7C6006A5FEE /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		18CBFB0717B0D7C6006A5FEE /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		18CBFB0817B0D7C6006A5FEE /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		18CBFB0917B0D7C6006A5FEE /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		18CBFB0A17B0D7C6006A5FEE /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		18CBFB0B17B0D7C6006A5FEE /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		18CBFB0C17B0D7C6006A5FEE /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		18CBFB0D17B0D7C6006A5FEE /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		18CBFB0E17B0D7C6006A5FEE /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		18CBFB0F17B0D7C6006A5FEE /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		18CBFB1017B0D7C6006A5FEE /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		18CBFB1217B0D7C6006A5FEE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		18CBFB1317B0D7C6006A5FEE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		18CBFB1517B0D7C6006A5FEE /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		18CBFB1617B0D7C6006A5FEE /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		18CBFB1817B0D7C6006A5FEE /* SoapXmlParseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapXmlParseHelper.h; sourceTree = "<group>"; };
+		18CBFB1917B0D7C6006A5FEE /* SoapXmlParseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapXmlParseHelper.m; sourceTree = "<group>"; };
+		18CBFB2517B0D7FA006A5FEE /* NetWebServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWebServiceRequest.h; sourceTree = "<group>"; };
+		18CBFB2617B0D7FA006A5FEE /* NetWebServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWebServiceRequest.m; sourceTree = "<group>"; };
+		18CBFB2C17B0F59A006A5FEE /* webserviceDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = webserviceDefines.h; sourceTree = "<group>"; };
+		18CBFB2D17B1D40C006A5FEE /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		18CBFB3017B1D43D006A5FEE /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		18CBFB3217B1D79D006A5FEE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		18CBFB3617B1EB7C006A5FEE /* Webservices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Webservices.h; sourceTree = "<group>"; };
+		18CBFB3717B1EB7D006A5FEE /* Webservices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Webservices.m; sourceTree = "<group>"; };
+		18DF41261873E339008E9164 /* rootVC-iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "rootVC-iPhone5.xib"; sourceTree = "<group>"; };
+		18DF41291873F4AE008E9164 /* personalInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = personalInfoVC.h; sourceTree = "<group>"; };
+		18DF412A1873F4AE008E9164 /* personalInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = personalInfoVC.m; sourceTree = "<group>"; };
+		18DF412B1873F4AE008E9164 /* personalInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = personalInfoVC.xib; sourceTree = "<group>"; };
+		18DF412E1873F4C4008E9164 /* personalInfoVC-iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "personalInfoVC-iPhone5.xib"; sourceTree = "<group>"; };
+		18DF4136187505EF008E9164 /* personalInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = personalInfoCell.h; sourceTree = "<group>"; };
+		18DF4137187505F0008E9164 /* personalInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = personalInfoCell.m; sourceTree = "<group>"; };
+		18DF413A1875060F008E9164 /* personalInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = personalInfoCell.xib; sourceTree = "<group>"; };
+		18E4A5BC1887AFE600302607 /* requestFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = requestFiles.h; sourceTree = "<group>"; };
+		18E4A5BD1887AFE600302607 /* requestFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = requestFiles.m; sourceTree = "<group>"; };
+		18E4A5BF1887CA1C00302607 /* parseXmlToArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parseXmlToArray.h; sourceTree = "<group>"; };
+		18E4A5C01887CA1C00302607 /* parseXmlToArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = parseXmlToArray.m; sourceTree = "<group>"; };
+		18E4A5CE1889193100302607 /* summaryDetailInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = summaryDetailInfoVC.h; sourceTree = "<group>"; };
+		18E4A5CF1889193100302607 /* summaryDetailInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = summaryDetailInfoVC.m; sourceTree = "<group>"; };
+		18E4A5D01889193100302607 /* summaryDetailInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = summaryDetailInfoVC.xib; sourceTree = "<group>"; };
+		18E4A5D31889194400302607 /* summaryDetailInfoVC-iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "summaryDetailInfoVC-iPhone5.xib"; sourceTree = "<group>"; };
+		18E4A5DF1889298300302607 /* moreInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moreInfoVC.h; sourceTree = "<group>"; };
+		18E4A5E01889298300302607 /* moreInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = moreInfoVC.m; sourceTree = "<group>"; };
+		18E4A5E11889298300302607 /* moreInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = moreInfoVC.xib; sourceTree = "<group>"; };
+		18E4A5E818892BA000302607 /* moreInfoVC-iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "moreInfoVC-iPhone5.xib"; sourceTree = "<group>"; };
+		18E5BCA917BB1755003C8205 /* GetXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetXML.h; sourceTree = "<group>"; };
+		18E5BCAA17BB1755003C8205 /* GetXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetXML.m; sourceTree = "<group>"; };
+		18E5BCB017BB9BAA003C8205 /* popAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = popAlertView.h; sourceTree = "<group>"; };
+		18E5BCB117BB9BAA003C8205 /* popAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = popAlertView.m; sourceTree = "<group>"; };
+		18E5BCB417BCC38E003C8205 /* searchList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchList.h; sourceTree = "<group>"; };
+		18E5BCB517BCC38E003C8205 /* searchList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchList.m; sourceTree = "<group>"; };
+		18E5BCB817BDA69C003C8205 /* searchListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchListModel.h; sourceTree = "<group>"; };
+		18E5BCB917BDA69C003C8205 /* searchListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchListModel.m; sourceTree = "<group>"; };
+		18E5BCBB17BDCF84003C8205 /* deptAppointmentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deptAppointmentModel.h; sourceTree = "<group>"; };
+		18E5BCBC17BDCF84003C8205 /* deptAppointmentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = deptAppointmentModel.m; sourceTree = "<group>"; };
+		18E8B64A187BE106005C4F08 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		18E9F49E185542F500DD103C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18E9F4A01855474100DD103C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		18E9F4A2185547A000DD103C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		18E9F4A4185547C500DD103C /* icon_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_58.png; sourceTree = "<group>"; };
+		18E9F4A5185547C500DD103C /* icon_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_80.png; sourceTree = "<group>"; };
+		18E9F4A6185547C500DD103C /* icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_120.png; sourceTree = "<group>"; };
+		18E9F4AA1855492400DD103C /* icon_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_144.png; sourceTree = "<group>"; };
+		18F259B617B4EA6E00B93A5F /* getDepartmentByHospital.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getDepartmentByHospital.h; sourceTree = "<group>"; };
+		18F259B717B4EA6E00B93A5F /* getDepartmentByHospital.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getDepartmentByHospital.m; sourceTree = "<group>"; };
+		18F259BA17B4EDCE00B93A5F /* departmentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = departmentModel.h; sourceTree = "<group>"; };
+		18F259BB17B4EDCE00B93A5F /* departmentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = departmentModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CBFA4A17AF4132006A5FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C87D4E18531358003341EC /* QuartzCore.framework in Frameworks */,
+				187C89BE18531302002E640B /* Accelerate.framework in Frameworks */,
+				18CBFB3417B1D7BA006A5FEE /* libxml2.2.dylib in Frameworks */,
+				18CBFB2F17B1D417006A5FEE /* libxml2.dylib in Frameworks */,
+				18CBFADC17AFA5D0006A5FEE /* libz.dylib in Frameworks */,
+				18CBFB3517B1D7BD006A5FEE /* MobileCoreServices.framework in Frameworks */,
+				18CBFAD917AFA215006A5FEE /* SystemConfiguration.framework in Frameworks */,
+				18CBFAD717AFA1F9006A5FEE /* CFNetwork.framework in Frameworks */,
+				18CBFA5117AF4132006A5FEE /* UIKit.framework in Frameworks */,
+				18CBFA5317AF4132006A5FEE /* Foundation.framework in Frameworks */,
+				18CBFA5517AF4132006A5FEE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC0208D17C753C9009A656C /* PersonalService */ = {
+			isa = PBXGroup;
+			children = (
+				0FC0208E17C75447009A656C /* PersonalServiceVC.h */,
+				0FC0208F17C75447009A656C /* PersonalServiceVC.m */,
+				0FC0209017C75447009A656C /* PersonalServiceVC.xib */,
+				1850819617CAED0E00E62724 /* PersonalServiceVC-iPhone5.xib */,
+			);
+			name = PersonalService;
+			sourceTree = "<group>";
+		};
+		0FC0887817C2F9DA00EC5CBD /* FamousHospital(名医名院) */ = {
+			isa = PBXGroup;
+			children = (
+				0FD1CF7C17C34F10008A1BF2 /* webView */,
+				0FC0887E17C30C1900EC5CBD /* hospitalCell */,
+				0FC0887917C2FA0700EC5CBD /* FamousHospital.h */,
+				0FC0887A17C2FA0700EC5CBD /* FamousHospital.m */,
+				0FC0887B17C2FA0700EC5CBD /* FamousHospital.xib */,
+				1850819217CAE18600E62724 /* FamousHospital-iPhone5.xib */,
+			);
+			name = "FamousHospital(名医名院)";
+			sourceTree = "<group>";
+		};
+		0FC0887E17C30C1900EC5CBD /* hospitalCell */ = {
+			isa = PBXGroup;
+			children = (
+				0FC0888717C30CEE00EC5CBD /* FamousHospitalCell.h */,
+				0FC0888817C30CEE00EC5CBD /* FamousHospitalCell.m */,
+				0FC0888917C30CEE00EC5CBD /* FamousHospitalCell.xib */,
+			);
+			name = hospitalCell;
+			sourceTree = "<group>";
+		};
+		0FD1CF5217C348C3008A1BF2 /* files */ = {
+			isa = PBXGroup;
+			children = (
+				0FD1CF5817C34E73008A1BF2 /* 0.html */,
+				0FD1CF5917C34E73008A1BF2 /* 1.html */,
+				0FD1CF5A17C34E73008A1BF2 /* 2.html */,
+				0FD1CF5B17C34E73008A1BF2 /* 3.html */,
+				0FD1CF5C17C34E73008A1BF2 /* 4.html */,
+				0FD1CF5D17C34E73008A1BF2 /* 5.html */,
+				189D84E317D5E1E400327D19 /* 心内科 */,
+				189D84E217D5E1D400327D19 /* 中医内科 */,
+				189D84E117D5E1C200327D19 /* 脑科中心 */,
+				189D84E017D5E1AB00327D19 /* 眼科 */,
+				189D84DF17D5E19300327D19 /* 肝病科 */,
+				189D84DE17D5E17400327D19 /* 皮肤科 */,
+				189D84DD17D5E14F00327D19 /* 重症医学科 */,
+				189D84DC17D5E13500327D19 /* 胸外科 */,
+				189D84DB17D5E12700327D19 /* 骨科 */,
+				189D84DA17D5E11300327D19 /* 妇产科 */,
+				189D84D917D5E0F400327D19 /* 康复专科 */,
+				189D84D817D5E0E000327D19 /* 泌尿科 */,
+				189D84D717D5E0D500327D19 /* 产科 */,
+				189D84D617D5E0BE00327D19 /* 儿保科 */,
+			);
+			path = files;
+			sourceTree = "<group>";
+		};
+		0FD1CF7C17C34F10008A1BF2 /* webView */ = {
+			isa = PBXGroup;
+			children = (
+				0FD1CF7D17C35122008A1BF2 /* HospitalWebView.h */,
+				0FD1CF7E17C35122008A1BF2 /* HospitalWebView.m */,
+				0FD1CF7F17C35122008A1BF2 /* HospitalWebView.xib */,
+				1850819417CAE25800E62724 /* HospitalWebView-iPhone5.xib */,
+			);
+			name = webView;
+			sourceTree = "<group>";
+		};
+		1805073317B863DD00CF8C43 /* 确认预约 */ = {
+			isa = PBXGroup;
+			children = (
+				1805073717B86B7C00CF8C43 /* model */,
+				1805073417B8643F00CF8C43 /* ConfirmAppointment.h */,
+				1805073517B8643F00CF8C43 /* ConfirmAppointment.m */,
+			);
+			name = "确认预约";
+			sourceTree = "<group>";
+		};
+		1805073717B86B7C00CF8C43 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1805073817B86B8900CF8C43 /* confirmModel.h */,
+				1805073917B86B8900CF8C43 /* confirmModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		180CA6FF17B376600089BB1D /* MakeAppointmentVC(预约) */ = {
+			isa = PBXGroup;
+			children = (
+				186DDDD317BE0EEB006B5D66 /* scheduleResultVC(排班信息) */,
+				1817EB1717B47A0200010843 /* hosipitalAppointVC(医院信息) */,
+				180CA70017B376B70089BB1D /* MakeAppointmentVC.h */,
+				180CA70117B376B70089BB1D /* MakeAppointmentVC.m */,
+				180CA70217B376B70089BB1D /* MakeAppointmentVC.xib */,
+				1850818C17CAD1F200E62724 /* MakeAppointmentVC-iPhone5.xib */,
+			);
+			name = "MakeAppointmentVC(预约)";
+			sourceTree = "<group>";
+		};
+		180CA70517B378AC0089BB1D /* MakeAppointmentVC */ = {
+			isa = PBXGroup;
+			children = (
+				18B806E117CF22E3002A0861 /* tap_button.png */,
+				18B8844517C1B6FC00F1B2EA /* divider.png */,
+				1817EB1F17B4833800010843 /* field.png */,
+				1817EB1D17B4822100010843 /* settings_dropdown.png */,
+				1817EB1517B4780700010843 /* yuyueguahao.png */,
+				1817EB1317B4738700010843 /* hospital_bg.png */,
+				180CA71417B37A7F0089BB1D /* group_bg.png */,
+				180CA71017B37A6B0089BB1D /* comm_arrow_press.png */,
+				180CA71117B37A6B0089BB1D /* comm_other_arrow.png */,
+				180CA70A17B378FA0089BB1D /* radio_pressed.png */,
+				180CA70B17B378FA0089BB1D /* radio_unpressed.png */,
+				180CA70617B378C90089BB1D /* Appoint_background.png */,
+				180CA70717B378C90089BB1D /* Appoint_background@2x.png */,
+				18B8843E17C1ABD100F1B2EA /* search_Field.png */,
+				18B8843A17C1ABAB00F1B2EA /* search_Left.png */,
+				18B8843B17C1ABAB00F1B2EA /* search_Right.png */,
+			);
+			name = MakeAppointmentVC;
+			sourceTree = "<group>";
+		};
+		180CA72317B390CE0089BB1D /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				18B8844717C1B83D00F1B2EA /* scheduleCell.h */,
+				18B8844817C1B83D00F1B2EA /* scheduleCell.m */,
+				18B8844317C1B4D200F1B2EA /* scheduleCell.xib */,
+				18B8845917C2115100F1B2EA /* popScheduleCell.h */,
+				18B8845A17C2115200F1B2EA /* popScheduleCell.m */,
+				18B8845C17C2116300F1B2EA /* popScheduleCell.xib */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		180CA72417B390DE0089BB1D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				180CA72517B391000089BB1D /* hospitalModel.h */,
+				180CA72617B391000089BB1D /* hospitalModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		1815EF5118764AE200F2CA15 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				1815EF5218764AE200F2CA15 /* MJRefresh.bundle */,
+				1815EF5318764AE200F2CA15 /* MJRefresh.h */,
+				1815EF5418764AE200F2CA15 /* MJRefreshBaseView.h */,
+				1815EF5518764AE200F2CA15 /* MJRefreshBaseView.m */,
+				1815EF5618764AE200F2CA15 /* MJRefreshFooterView.h */,
+				1815EF5718764AE200F2CA15 /* MJRefreshFooterView.m */,
+				1815EF5818764AE200F2CA15 /* MJRefreshHeaderView.h */,
+				1815EF5918764AE200F2CA15 /* MJRefreshHeaderView.m */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		1817EB1717B47A0200010843 /* hosipitalAppointVC(医院信息) */ = {
+			isa = PBXGroup;
+			children = (
+				1817EB1817B47A3D00010843 /* hospitalAppointVC.h */,
+				1817EB1917B47A3D00010843 /* hospitalAppointVC.m */,
+				1817EB1A17B47A3D00010843 /* hospitalAppointVC.xib */,
+				1850818E17CAD53B00E62724 /* hospitalAppointVC-iPhone5.xib */,
+			);
+			name = "hosipitalAppointVC(医院信息)";
+			sourceTree = "<group>";
+		};
+		181ABFF417D9AA8600BB1003 /* 版本控制 */ = {
+			isa = PBXGroup;
+			children = (
+				181ABFEE17D9AA4600BB1003 /* JSONKit.h */,
+				181ABFEF17D9AA4600BB1003 /* JSONKit.m */,
+				181ABFF017D9AA4600BB1003 /* AWVersionAgent.h */,
+				181ABFF117D9AA4600BB1003 /* AWVersionAgent.m */,
+			);
+			name = "版本控制";
+			sourceTree = "<group>";
+		};
+		1850818B17C9DB8100E62724 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1850818817C9DAC000E62724 /* appRecordModel.h */,
+				1850818917C9DAC000E62724 /* appRecordModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		1850819817CAFF0B00E62724 /* 江滨医院预约情况 */ = {
+			isa = PBXGroup;
+			children = (
+				18C39AB217C8B39E008FF3FF /* AppointRecord.h */,
+				18C39AB317C8B39E008FF3FF /* AppointRecord.m */,
+				18C39AB417C8B39E008FF3FF /* AppointRecord.xib */,
+				1850819A17CAFF3D00E62724 /* AppointRecord-iPhone5.xib */,
+			);
+			name = "江滨医院预约情况";
+			sourceTree = "<group>";
+		};
+		1850819917CAFF1D00E62724 /* 康复集团预约情况 */ = {
+			isa = PBXGroup;
+			children = (
+				1850819C17CB000900E62724 /* KangFuAppointRecord.h */,
+				1850819D17CB000900E62724 /* KangFuAppointRecord.m */,
+				1850819E17CB000900E62724 /* KangFuAppointRecord.xib */,
+				185081A117CB47B800E62724 /* KangFuAppointRecord-iPhone.xib */,
+			);
+			name = "康复集团预约情况";
+			sourceTree = "<group>";
+		};
+		185081A317CB504700E62724 /* 取消预约 */ = {
+			isa = PBXGroup;
+			children = (
+				185081A417CB513300E62724 /* cancelAppointment.h */,
+				185081A517CB513300E62724 /* cancelAppointment.m */,
+			);
+			name = "取消预约";
+			sourceTree = "<group>";
+		};
+		1855ED1E17C5B30D00F10856 /* 病人信息注册 */ = {
+			isa = PBXGroup;
+			children = (
+				1855ED1F17C5B34700F10856 /* regPatientInfo.h */,
+				1855ED2017C5B34700F10856 /* regPatientInfo.m */,
+			);
+			name = "病人信息注册";
+			sourceTree = "<group>";
+		};
+		1855ED2517C6123400F10856 /* 获取专家信息 */ = {
+			isa = PBXGroup;
+			children = (
+				1855ED2F17C74FB500F10856 /* model */,
+				1855ED2617C612CA00F10856 /* expertResourceScheduleDetail.h */,
+				1855ED2717C612CA00F10856 /* expertResourceScheduleDetail.m */,
+			);
+			name = "获取专家信息";
+			sourceTree = "<group>";
+		};
+		1855ED2F17C74FB500F10856 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1855ED2917C6491800F10856 /* expertInfoModel.h */,
+				1855ED2A17C6491800F10856 /* expertInfoModel.m */,
+				1855ED2C17C7001B00F10856 /* expertScheduleDetalModel.h */,
+				1855ED2D17C7001B00F10856 /* expertScheduleDetalModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		1855ED3017C7657300F10856 /* 获取标识符 */ = {
+			isa = PBXGroup;
+			children = (
+				1855ED3717C8661900F10856 /* model */,
+				1855ED3117C85CD000F10856 /* getPatientInfo.h */,
+				1855ED3217C85CD000F10856 /* getPatientInfo.m */,
+			);
+			name = "获取标识符";
+			sourceTree = "<group>";
+		};
+		1855ED3717C8661900F10856 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1855ED3417C8660F00F10856 /* patientInfo.h */,
+				1855ED3517C8660F00F10856 /* patientInfo.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		186DDDD117BE0EB4006B5D66 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				18E5BCA917BB1755003C8205 /* GetXML.h */,
+				18E5BCAA17BB1755003C8205 /* GetXML.m */,
+			);
+			name = XML;
+			sourceTree = "<group>";
+		};
+		186DDDD217BE0EC5006B5D66 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				18E5BCB017BB9BAA003C8205 /* popAlertView.h */,
+				18E5BCB117BB9BAA003C8205 /* popAlertView.m */,
+			);
+			name = pop;
+			sourceTree = "<group>";
+		};
+		186DDDD317BE0EEB006B5D66 /* scheduleResultVC(排班信息) */ = {
+			isa = PBXGroup;
+			children = (
+				180CA72317B390CE0089BB1D /* cell */,
+				186DDDD417BE0F32006B5D66 /* scheduleResultVC.h */,
+				186DDDD517BE0F32006B5D66 /* scheduleResultVC.m */,
+				186DDDD617BE0F32006B5D66 /* scheduleResultVC.xib */,
+				1850819017CAD73200E62724 /* scheduleResultVC-iPhone5.xib */,
+				18B806E317D16F32002A0861 /* AppointHeader.h */,
+			);
+			name = "scheduleResultVC(排班信息)";
+			sourceTree = "<group>";
+		};
+		187013FA1872988600A2D27A /* 健康查询 */ = {
+			isa = PBXGroup;
+			children = (
+				18E4A5DE1889294900302607 /* moreInfoVC(更多信息) */,
+				18E4A5C5188918AB00302607 /* summaryDetailInfoVC(摘要信息) */,
+				18DF41281873F47B008E9164 /* personalInfo(个人信息) */,
+				187013FB18729C9C00A2D27A /* loginVC(登陆界面) */,
+			);
+			name = "健康查询";
+			sourceTree = "<group>";
+		};
+		187013FB18729C9C00A2D27A /* loginVC(登陆界面) */ = {
+			isa = PBXGroup;
+			children = (
+				187013FC18729CCD00A2D27A /* loginFileVC.h */,
+				187013FD18729CCD00A2D27A /* loginFileVC.m */,
+				187013FE18729CCD00A2D27A /* loginFileVC.xib */,
+				1870140118729CEE00A2D27A /* loginFileVC-iPhone5.xib */,
+			);
+			name = "loginVC(登陆界面)";
+			sourceTree = "<group>";
+		};
+		1870140318729F8A00A2D27A /* login */ = {
+			isa = PBXGroup;
+			children = (
+				185BC8A5187AAD1B00B6EA3E /* book.png */,
+				185BC8A3187AACE900B6EA3E /* health.png */,
+				185BC899187AA53400B6EA3E /* login_bg.png */,
+				185BC89B187AA9DF00B6EA3E /* login_background.png */,
+				1870140418729F9700A2D27A /* loginVC_password.png */,
+				1870140518729F9700A2D27A /* loginVC_password@2x.png */,
+				1870140618729F9800A2D27A /* loginVC_username.png */,
+				1870140718729F9800A2D27A /* loginVC_username@2x.png */,
+				1870141D1872BF4A00A2D27A /* loginVC_main.png */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		187014181872A8A400A2D27A /* request(获取web数据） */ = {
+			isa = PBXGroup;
+			children = (
+				187014191872A8E200A2D27A /* weblink.h */,
+			);
+			name = "request(获取web数据）";
+			sourceTree = "<group>";
+		};
+		188E44CD17B87DEE0030F9D6 /* 获取科室计划表 */ = {
+			isa = PBXGroup;
+			children = (
+				188E44CE17B87E200030F9D6 /* KangFuDeptSchedule.h */,
+				188E44CF17B87E200030F9D6 /* KangFuDeptSchedule.m */,
+			);
+			name = "获取科室计划表";
+			sourceTree = "<group>";
+		};
+		1899209B17CD85A20005B620 /* weibo(微博) */ = {
+			isa = PBXGroup;
+			children = (
+				189920DA17CDFFBD0005B620 /* weiboMainVC(微博详情) */,
+				189920CF17CDF04E0005B620 /* cell */,
+				1899209F17CD85F90005B620 /* weiboListVC.h */,
+				189920A017CD85F90005B620 /* weiboListVC.m */,
+				189920A117CD85F90005B620 /* weiboListVC.xib */,
+				18BAEA6C17D70B4E003C3425 /* weiboListVC-iPhone5.xib */,
+			);
+			name = "weibo(微博)";
+			sourceTree = "<group>";
+		};
+		189920A817CDE6770005B620 /* weiboImage */ = {
+			isa = PBXGroup;
+			children = (
+				189920CD17CDE7E60005B620 /* Wisdom_Health_ZhenJiang.png */,
+				189920B217CDE6770005B620 /* Public_Heath_Bureau.png */,
+				189920AA17CDE6770005B620 /* blood_Center.png */,
+				189920AF17CDE6770005B620 /* health_Inspection_Bureau.png */,
+				189920A917CDE6770005B620 /* 12320.png */,
+				189920B917CDE6770005B620 /* Youth_League_Committee.png */,
+				189920B417CDE6770005B620 /* Stomatological_Hospital.png */,
+				189920AB17CDE6770005B620 /* Chinese_Medicine.png */,
+				189920AD17CDE6770005B620 /* First_Peoples_Hospital.png */,
+				189920B317CDE6770005B620 /* Second_Peoples_Hospital.png */,
+				189920B517CDE6770005B620 /* Third_Peoples_Hospital.png */,
+				189920AE17CDE6770005B620 /* Fourth_People_Hospital.png */,
+				189920B617CDE6770005B620 /* UJS_Hospital.png */,
+				189920CB17CDE7730005B620 /* Medical_Reform.png */,
+				189920AC17CDE6770005B620 /* DanTu.png */,
+				189920B017CDE6770005B620 /* JianBi_Zhen.png */,
+				189920B117CDE6770005B620 /* JingKou_CDC.png */,
+				189920B817CDE6770005B620 /* V.png */,
+			);
+			path = weiboImage;
+			sourceTree = "<group>";
+		};
+		189920CF17CDF04E0005B620 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				189920D017CDF0610005B620 /* weiboCell.h */,
+				189920D117CDF0610005B620 /* weiboCell.m */,
+				189920D317CDF0700005B620 /* weiboCell.xib */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		189920DA17CDFFBD0005B620 /* weiboMainVC(微博详情) */ = {
+			isa = PBXGroup;
+			children = (
+				189920D517CDF90B0005B620 /* weiboMainVC.h */,
+				189920D617CDF90B0005B620 /* weiboMainVC.m */,
+				189920D717CDF90B0005B620 /* weiboMainVC.xib */,
+				18BAEA6A17D70A53003C3425 /* weiboMainVC-iPhone5.xib */,
+			);
+			name = "weiboMainVC(微博详情)";
+			sourceTree = "<group>";
+		};
+		189AB54217C2FB1500EFF4E3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				189AB54317C2FB2600EFF4E3 /* deptTimeModel.h */,
+				189AB54417C2FB2600EFF4E3 /* deptTimeModel.m */,
+				189AB54917C49E2800EFF4E3 /* ticketListModel.h */,
+				189AB54A17C49E2800EFF4E3 /* ticketListModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		189D84D617D5E0BE00327D19 /* 儿保科 */ = {
+			isa = PBXGroup;
+			children = (
+				0FD1CF6117C34E73008A1BF2 /* childprotection.htm */,
+			);
+			name = "儿保科";
+			sourceTree = "<group>";
+		};
+		189D84D717D5E0D500327D19 /* 产科 */ = {
+			isa = PBXGroup;
+			children = (
+				0FD1CF6617C34E73008A1BF2 /* obstetrics.htm */,
+			);
+			name = "产科";
+			sourceTree = "<group>";
+		};
+		189D84D817D5E0E000327D19 /* 泌尿科 */ = {
+			isa = PBXGroup;
+			children = (
+				189D84D217D488CE00327D19 /* urologySpecialty.htm */,
+			);
+			name = "泌尿科";
+			sourceTree = "<group>";
+		};
+		189D84D917D5E0F400327D19 /* 康复专科 */ = {
+			isa = PBXGroup;
+			children = (
+				189D84D417D488DA00327D19 /* GetWellSpecial.htm */,
+			);
+			name = "康复专科";
+			sourceTree = "<group>";
+		};
+		189D84DA17D5E11300327D19 /* 妇产科 */ = {
+			isa = PBXGroup;
+			children = (
+				0FD1CF6717C34E73008A1BF2 /* obstetricsandgynecology.htm */,
+			);
+			name = "妇产科";
+			sourceTree = "<group>";
+		};
+		189D84DB17D5E12700327D19 /* 骨科 */ = {
+			isa = PBXGroup;
+			children = (
+				0FD1CF6917C34E73008A1BF2 /* orthopedics.htm */,
+			);
+			name = "骨科";
+			sourceTree = "<group>";
+		};
+		189D84DC17D5E13500327D19 /* 胸外科 */ = {
+			isa = PBXGroup;
+			children = (
+				0FD1CF6017C34E73008A1BF2 /* chestsurgical.htm */,
+			);
+			name = "胸外科";
+			sourceTree = "<group>";
+		};
+		189D84DD17D5E14F00327D19 /* 重症医学科 */ = {
+			isa = PBXGroup;
+			children = (
+				0FD1CF6217C34E73008A1BF2 /* criticalcaremedicine.htm */,
+			);
+			name = "重症医学科";
+			sourceTree = "<group>";
+		};
+		189D84DE17D5E17400327D19 /* 皮肤科 */ = {
+			isa = PBXGroup;
+			children = (
+				0FD1CF6417C34E73008A1BF2 /* dermatology.htm */,
+			);
+			name = "皮肤科";
+			sourceTree = "<group>";
+		};
+		189D84DF17D5E19300327D19 /* 肝病科 */ = {
+			isa = PBXGroup;
+			children = (
+				0FD1CF6517C34E73008A1BF2 /* liverdiseasebranch.htm */,
+			);
+			name = "肝病科";
+			sourceTree = "<group>";
+		};
+		189D84E017D5E1AB00327D19 /* 眼科 */ = {
+			isa = PBXGroup;
+			children = (
+				0FD1CF6817C34E73008A1BF2 /* ophthalmology.htm */,
+			);
+			name = "眼科";
+			sourceTree = "<group>";
+		};
+		189D84E117D5E1C200327D19 /* 脑科中心 */ = {
+			isa = PBXGroup;
+			children = (
+				0FD1CF5E17C34E73008A1BF2 /* braincenter.htm */,
+			);
+			name = "脑科中心";
+			sourceTree = "<group>";
+		};
+		189D84E217D5E1D400327D19 /* 中医内科 */ = {
+			isa = PBXGroup;
+			children = (
+				0FD1CF8217C365A7008A1BF2 /* traditionalchineseinternalmedicine.htm */,
+			);
+			name = "中医内科";
+			sourceTree = "<group>";
+		};
+		189D84E317D5E1E400327D19 /* 心内科 */ = {
+			isa = PBXGroup;
+			children = (
+				0FD1CF5F17C34E73008A1BF2 /* cardiology.htm */,
+			);
+			name = "心内科";
+			sourceTree = "<group>";
+		};
+		18B806DB17CED5C8002A0861 /* 获取SCheduleID */ = {
+			isa = PBXGroup;
+			children = (
+				18B806DC17CED5F2002A0861 /* ScheduleIDByTimeSlice.h */,
+				18B806DD17CED5F2002A0861 /* ScheduleIDByTimeSlice.m */,
+			);
+			name = "获取SCheduleID";
+			sourceTree = "<group>";
+		};
+		18B8844A17C1F3B000F1B2EA /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				18B8844B17C1F3B000F1B2EA /* NSString+block.h */,
+				18B8844C17C1F3B000F1B2EA /* NSString+block.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		18B8844E17C1F3C100F1B2EA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18B8844F17C1F40200F1B2EA /* UIView+tapBlock.h */,
+				18B8845017C1F40200F1B2EA /* UIView+tapBlock.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		18B8845E17C2226700F1B2EA /* 时间段 */ = {
+			isa = PBXGroup;
+			children = (
+				189AB54217C2FB1500EFF4E3 /* model */,
+				189AB53F17C2FB0D00EFF4E3 /* deptTimeScheduleService.h */,
+				189AB54017C2FB0D00EFF4E3 /* deptTimeScheduleService.m */,
+			);
+			name = "时间段";
+			sourceTree = "<group>";
+		};
+		18C39AB117C8AF1E008FF3FF /* appointmentRecord(查看预约) */ = {
+			isa = PBXGroup;
+			children = (
+				0FC0208D17C753C9009A656C /* PersonalService */,
+				1850819917CAFF1D00E62724 /* 康复集团预约情况 */,
+				1850819817CAFF0B00E62724 /* 江滨医院预约情况 */,
+				18C39AB717C8B491008FF3FF /* cell */,
+			);
+			name = "appointmentRecord(查看预约)";
+			sourceTree = "<group>";
+		};
+		18C39AB717C8B491008FF3FF /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				18C39AB817C8B4AB008FF3FF /* appointRecordCell.h */,
+				18C39AB917C8B4AB008FF3FF /* appointRecordCell.m */,
+				18C39ABB17C8B4BD008FF3FF /* appointRecordCell.xib */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		18C39ABD17C8B58F008FF3FF /* 查询预约 */ = {
+			isa = PBXGroup;
+			children = (
+				1850818B17C9DB8100E62724 /* model */,
+				18C39ABE17C8B5B3008FF3FF /* queryAppRecord.h */,
+				18C39ABF17C8B5B3008FF3FF /* queryAppRecord.m */,
+			);
+			name = "查询预约";
+			sourceTree = "<group>";
+		};
+		18CBFA4417AF4131006A5FEE = {
+			isa = PBXGroup;
+			children = (
+				18CBFA5617AF4132006A5FEE /* MedicalService */,
+				18CBFA4F17AF4132006A5FEE /* Frameworks */,
+				18CBFA4E17AF4132006A5FEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CBFA4E17AF4132006A5FEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFA4D17AF4132006A5FEE /* 镇江掌上医疗.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CBFA4F17AF4132006A5FEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C87D4D18531358003341EC /* QuartzCore.framework */,
+				187C89BD18531302002E640B /* Accelerate.framework */,
+				18CBFB2D17B1D40C006A5FEE /* libxml2.dylib */,
+				18CBFADA17AFA39F006A5FEE /* libz.dylib */,
+				18CBFB3017B1D43D006A5FEE /* libxml2.2.dylib */,
+				18CBFB3217B1D79D006A5FEE /* MobileCoreServices.framework */,
+				18CBFAD817AFA215006A5FEE /* SystemConfiguration.framework */,
+				18CBFAD617AFA1F8006A5FEE /* CFNetwork.framework */,
+				18CBFA5017AF4132006A5FEE /* UIKit.framework */,
+				18CBFA5217AF4132006A5FEE /* Foundation.framework */,
+				18CBFA5417AF4132006A5FEE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18CBFA5617AF4132006A5FEE /* MedicalService */ = {
+			isa = PBXGroup;
+			children = (
+				187014181872A8A400A2D27A /* request(获取web数据） */,
+				18CBFAF917B0D71C006A5FEE /* webservice(获取web数据) */,
+				18CBFAFA17B0D768006A5FEE /* VCS */,
+				18CBFAFB17B0D77E006A5FEE /* 相关类库 */,
+				18E9F49E185542F500DD103C /* Images.xcassets */,
+				18CBFA5717AF4132006A5FEE /* Supporting Files */,
+			);
+			path = MedicalService;
+			sourceTree = "<group>";
+		};
+		18CBFA5717AF4132006A5FEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FD1CF5217C348C3008A1BF2 /* files */,
+				18CBFAC717AF92FC006A5FEE /* image */,
+				18CBFA5817AF4132006A5FEE /* MedicalService-Info.plist */,
+				18CBFA5917AF4132006A5FEE /* InfoPlist.strings */,
+				18CBFA5C17AF4132006A5FEE /* main.m */,
+				18CBFA5E17AF4132006A5FEE /* MedicalService-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18CBFA9617AF41C8006A5FEE /* FLService */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFA9717AF41C8006A5FEE /* FLDefines.h */,
+				18E5BCAC17BB9924003C8205 /* popAlert */,
+				18CBFA9817AF41C8006A5FEE /* help */,
+				18CBFAA717AF41C8006A5FEE /* UI */,
+			);
+			path = FLService;
+			sourceTree = "<group>";
+		};
+		18CBFA9817AF41C8006A5FEE /* help */ = {
+			isa = PBXGroup;
+			children = (
+				18B8844E17C1F3C100F1B2EA /* view */,
+				18B8844A17C1F3B000F1B2EA /* NSString */,
+				18CBFA9917AF41C8006A5FEE /* Device */,
+				18CBFA9C17AF41C8006A5FEE /* toast */,
+				18CBFA9F17AF41C8006A5FEE /* viewController */,
+			);
+			path = help;
+			sourceTree = "<group>";
+		};
+		18CBFA9917AF41C8006A5FEE /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFA9A17AF41C8006A5FEE /* UIDevice+help.h */,
+				18CBFA9B17AF41C8006A5FEE /* UIDevice+help.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		18CBFA9C17AF41C8006A5FEE /* toast */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFA9D17AF41C8006A5FEE /* UIView+toast.h */,
+				18CBFA9E17AF41C8006A5FEE /* UIView+toast.m */,
+			);
+			path = toast;
+			sourceTree = "<group>";
+		};
+		18CBFA9F17AF41C8006A5FEE /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFAA017AF41C8006A5FEE /* UIViewController+help.h */,
+				18CBFAA117AF41C8006A5FEE /* UIViewController+help.m */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		18CBFAA717AF41C8006A5FEE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFAA817AF41C8006A5FEE /* activity */,
+				18CBFAAB17AF41C8006A5FEE /* tableViewCell */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		18CBFAA817AF41C8006A5FEE /* activity */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFAA917AF41C8006A5FEE /* FLActivity.h */,
+				18CBFAAA17AF41C8006A5FEE /* FLActivity.m */,
+			);
+			path = activity;
+			sourceTree = "<group>";
+		};
+		18CBFAAB17AF41C8006A5FEE /* tableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFAAC17AF41C8006A5FEE /* FLtableViewCell.h */,
+				18CBFAAD17AF41C8006A5FEE /* FLtableViewCell.m */,
+			);
+			path = tableViewCell;
+			sourceTree = "<group>";
+		};
+		18CBFAB517AF4289006A5FEE /* MainVC(主页) */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFABB17AF4310006A5FEE /* MainVC.h */,
+				18CBFABC17AF4310006A5FEE /* MainVC.m */,
+				18CBFAC417AF4364006A5FEE /* resources */,
+			);
+			name = "MainVC(主页)";
+			sourceTree = "<group>";
+		};
+		18CBFAC417AF4364006A5FEE /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFAC017AF434B006A5FEE /* MainVC.xib */,
+				18CBFAC217AF435E006A5FEE /* MainVC-iPhone5.xib */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		18CBFAC717AF92FC006A5FEE /* image */ = {
+			isa = PBXGroup;
+			children = (
+				18B6B61B188CD0180086BE90 /* more.png */,
+				18B6B60B188CC8750086BE90 /* down.png */,
+				18B6B60D188CC9250086BE90 /* up.png */,
+				18E8B64A187BE106005C4F08 /* bar.png */,
+				1870140318729F8A00A2D27A /* login */,
+				187013E6187267D100A2D27A /* icon_29.png */,
+				18E9F4A2185547A000DD103C /* icon@2x.png */,
+				18E9F4A01855474100DD103C /* icon.png */,
+				18E9F4A4185547C500DD103C /* icon_58.png */,
+				18E9F4A5185547C500DD103C /* icon_80.png */,
+				18E9F4A6185547C500DD103C /* icon_120.png */,
+				18E9F4AA1855492400DD103C /* icon_144.png */,
+				189920A817CDE6770005B620 /* weiboImage */,
+				180CA70517B378AC0089BB1D /* MakeAppointmentVC */,
+				18CBFADD17AFA757006A5FEE /* MainVC */,
+				18CBFAC917AF931B006A5FEE /* Default.png */,
+				18CBFACA17AF931B006A5FEE /* Default@2x.png */,
+				18CBFAC817AF931B006A5FEE /* Default-568h@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		18CBFACE17AF9C8A006A5FEE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				181ABFF417D9AA8600BB1003 /* 版本控制 */,
+				18CBFA5F17AF4132006A5FEE /* AppDelegate.h */,
+				18CBFA6017AF4132006A5FEE /* AppDelegate.m */,
+				187013F118728D2900A2D27A /* rootVC.h */,
+				187013F218728D2900A2D27A /* rootVC.m */,
+				187013F318728D2900A2D27A /* rootVC.xib */,
+				18DF41261873E339008E9164 /* rootVC-iPhone5.xib */,
+			);
+			name = AppDelegate;
+			path = FLService;
+			sourceTree = "<group>";
+		};
+		18CBFACF17AF9CC3006A5FEE /* SGimagePage */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFAD017AF9CC4006A5FEE /* SGFocusImageFrame.h */,
+				18CBFAD117AF9CC4006A5FEE /* SGFocusImageFrame.m */,
+				18CBFAD217AF9CC4006A5FEE /* SGFocusImageItem.h */,
+				18CBFAD317AF9CC4006A5FEE /* SGFocusImageItem.m */,
+			);
+			path = SGimagePage;
+			sourceTree = "<group>";
+		};
+		18CBFADD17AFA757006A5FEE /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFAF817B0D1E9006A5FEE /* hospital */,
+				18CBFAEA17B0A41E006A5FEE /* more_info.png */,
+				18CBFAE817B0A2ED006A5FEE /* register_guahao.png */,
+				18CBFAE617B0A2D0006A5FEE /* hospital.png */,
+				18CBFAE417B0A2AD006A5FEE /* personal_service.png */,
+				18CBFADE17AFA78D006A5FEE /* MainVC_background.png */,
+				18CBFAE017AFA845006A5FEE /* MainVC_background@2x.png */,
+				18CBFAE217AFA8BA006A5FEE /* MainVC_background-568h@2x.png */,
+			);
+			name = MainVC;
+			sourceTree = "<group>";
+		};
+		18CBFAF817B0D1E9006A5FEE /* hospital */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFAEC17B0D1E0006A5FEE /* pic1.jpg */,
+				18CBFAED17B0D1E0006A5FEE /* pic2.jpg */,
+				18CBFAEE17B0D1E1006A5FEE /* pic3.jpg */,
+				18CBFAEF17B0D1E1006A5FEE /* pic4.jpg */,
+				18CBFAF017B0D1E2006A5FEE /* pic5.jpg */,
+				18CBFAF117B0D1E3006A5FEE /* pic6.jpg */,
+			);
+			name = hospital;
+			sourceTree = "<group>";
+		};
+		18CBFAF917B0D71C006A5FEE /* webservice(获取web数据) */ = {
+			isa = PBXGroup;
+			children = (
+				18E4A5BF1887CA1C00302607 /* parseXmlToArray.h */,
+				18E4A5C01887CA1C00302607 /* parseXmlToArray.m */,
+				18E4A5BC1887AFE600302607 /* requestFiles.h */,
+				18E4A5BD1887AFE600302607 /* requestFiles.m */,
+				18B806DB17CED5C8002A0861 /* 获取SCheduleID */,
+				185081A317CB504700E62724 /* 取消预约 */,
+				18C39ABD17C8B58F008FF3FF /* 查询预约 */,
+				1855ED3017C7657300F10856 /* 获取标识符 */,
+				1805073317B863DD00CF8C43 /* 确认预约 */,
+				1855ED2517C6123400F10856 /* 获取专家信息 */,
+				1855ED1E17C5B30D00F10856 /* 病人信息注册 */,
+				18B8845E17C2226700F1B2EA /* 时间段 */,
+				18E5BCB317BCC359003C8205 /* 排班信息查询 */,
+				188E44CD17B87DEE0030F9D6 /* 获取科室计划表 */,
+				18F259B517B4EA2100B93A5F /* 获取科室 */,
+				18F259B417B4EA1100B93A5F /* 获取医院 */,
+				18CBFB2817B0D800006A5FEE /* NetWebService */,
+				18CBFB2C17B0F59A006A5FEE /* webserviceDefines.h */,
+			);
+			name = "webservice(获取web数据)";
+			sourceTree = "<group>";
+		};
+		18CBFAFA17B0D768006A5FEE /* VCS */ = {
+			isa = PBXGroup;
+			children = (
+				187013FA1872988600A2D27A /* 健康查询 */,
+				1899209B17CD85A20005B620 /* weibo(微博) */,
+				18C39AB117C8AF1E008FF3FF /* appointmentRecord(查看预约) */,
+				0FC0887817C2F9DA00EC5CBD /* FamousHospital(名医名院) */,
+				180CA6FF17B376600089BB1D /* MakeAppointmentVC(预约) */,
+				18CBFAB517AF4289006A5FEE /* MainVC(主页) */,
+				18CBFACE17AF9C8A006A5FEE /* AppDelegate */,
+			);
+			name = VCS;
+			sourceTree = "<group>";
+		};
+		18CBFAFB17B0D77E006A5FEE /* 相关类库 */ = {
+			isa = PBXGroup;
+			children = (
+				1815EF5118764AE200F2CA15 /* MJRefresh */,
+				189AB54617C3711E00EFF4E3 /* TPKeyboard.h */,
+				189AB54717C3711E00EFF4E3 /* TPKeyboard.m */,
+				186DDDD217BE0EC5006B5D66 /* pop */,
+				186DDDD117BE0EB4006B5D66 /* XML */,
+				18CBFAFC17B0D7C6006A5FEE /* ASIHTTPRequest */,
+				18CBFB1417B0D7C6006A5FEE /* GDataXMLNode */,
+				18CBFB1717B0D7C6006A5FEE /* XmlParse */,
+				18CBFACF17AF9CC3006A5FEE /* SGimagePage */,
+				18CBFA9617AF41C8006A5FEE /* FLService */,
+			);
+			name = "相关类库";
+			sourceTree = "<group>";
+		};
+		18CBFAFC17B0D7C6006A5FEE /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFAFD17B0D7C6006A5FEE /* ASIAuthenticationDialog.h */,
+				18CBFAFE17B0D7C6006A5FEE /* ASIAuthenticationDialog.m */,
+				18CBFAFF17B0D7C6006A5FEE /* ASICacheDelegate.h */,
+				18CBFB0017B0D7C6006A5FEE /* ASIDataCompressor.h */,
+				18CBFB0117B0D7C6006A5FEE /* ASIDataCompressor.m */,
+				18CBFB0217B0D7C6006A5FEE /* ASIDataDecompressor.h */,
+				18CBFB0317B0D7C6006A5FEE /* ASIDataDecompressor.m */,
+				18CBFB0417B0D7C6006A5FEE /* ASIDownloadCache.h */,
+				18CBFB0517B0D7C6006A5FEE /* ASIDownloadCache.m */,
+				18CBFB0617B0D7C6006A5FEE /* ASIFormDataRequest.h */,
+				18CBFB0717B0D7C6006A5FEE /* ASIFormDataRequest.m */,
+				18CBFB0817B0D7C6006A5FEE /* ASIHTTPRequest.h */,
+				18CBFB0917B0D7C6006A5FEE /* ASIHTTPRequest.m */,
+				18CBFB0A17B0D7C6006A5FEE /* ASIHTTPRequestConfig.h */,
+				18CBFB0B17B0D7C6006A5FEE /* ASIHTTPRequestDelegate.h */,
+				18CBFB0C17B0D7C6006A5FEE /* ASIInputStream.h */,
+				18CBFB0D17B0D7C6006A5FEE /* ASIInputStream.m */,
+				18CBFB0E17B0D7C6006A5FEE /* ASINetworkQueue.h */,
+				18CBFB0F17B0D7C6006A5FEE /* ASINetworkQueue.m */,
+				18CBFB1017B0D7C6006A5FEE /* ASIProgressDelegate.h */,
+				18CBFB1117B0D7C6006A5FEE /* Reachability */,
+			);
+			path = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		18CBFB1117B0D7C6006A5FEE /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFB1217B0D7C6006A5FEE /* Reachability.h */,
+				18CBFB1317B0D7C6006A5FEE /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		18CBFB1417B0D7C6006A5FEE /* GDataXMLNode */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFB1517B0D7C6006A5FEE /* GDataXMLNode.h */,
+				18CBFB1617B0D7C6006A5FEE /* GDataXMLNode.m */,
+			);
+			path = GDataXMLNode;
+			sourceTree = "<group>";
+		};
+		18CBFB1717B0D7C6006A5FEE /* XmlParse */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFB1817B0D7C6006A5FEE /* SoapXmlParseHelper.h */,
+				18CBFB1917B0D7C6006A5FEE /* SoapXmlParseHelper.m */,
+			);
+			path = XmlParse;
+			sourceTree = "<group>";
+		};
+		18CBFB2817B0D800006A5FEE /* NetWebService */ = {
+			isa = PBXGroup;
+			children = (
+				18CBFB2517B0D7FA006A5FEE /* NetWebServiceRequest.h */,
+				18CBFB2617B0D7FA006A5FEE /* NetWebServiceRequest.m */,
+				18CBFB3617B1EB7C006A5FEE /* Webservices.h */,
+				18CBFB3717B1EB7D006A5FEE /* Webservices.m */,
+			);
+			name = NetWebService;
+			sourceTree = "<group>";
+		};
+		18DF41281873F47B008E9164 /* personalInfo(个人信息) */ = {
+			isa = PBXGroup;
+			children = (
+				18DF4139187505F6008E9164 /* personalInfoCell */,
+				18DF41291873F4AE008E9164 /* personalInfoVC.h */,
+				18DF412A1873F4AE008E9164 /* personalInfoVC.m */,
+				18DF412B1873F4AE008E9164 /* personalInfoVC.xib */,
+				18DF412E1873F4C4008E9164 /* personalInfoVC-iPhone5.xib */,
+			);
+			name = "personalInfo(个人信息)";
+			sourceTree = "<group>";
+		};
+		18DF4139187505F6008E9164 /* personalInfoCell */ = {
+			isa = PBXGroup;
+			children = (
+				18DF4136187505EF008E9164 /* personalInfoCell.h */,
+				18DF4137187505F0008E9164 /* personalInfoCell.m */,
+				18DF413A1875060F008E9164 /* personalInfoCell.xib */,
+			);
+			name = personalInfoCell;
+			sourceTree = "<group>";
+		};
+		18E4A5C5188918AB00302607 /* summaryDetailInfoVC(摘要信息) */ = {
+			isa = PBXGroup;
+			children = (
+				18E4A5CE1889193100302607 /* summaryDetailInfoVC.h */,
+				18E4A5CF1889193100302607 /* summaryDetailInfoVC.m */,
+				18E4A5D01889193100302607 /* summaryDetailInfoVC.xib */,
+				18E4A5D31889194400302607 /* summaryDetailInfoVC-iPhone5.xib */,
+			);
+			name = "summaryDetailInfoVC(摘要信息)";
+			sourceTree = "<group>";
+		};
+		18E4A5DE1889294900302607 /* moreInfoVC(更多信息) */ = {
+			isa = PBXGroup;
+			children = (
+				18E4A5DF1889298300302607 /* moreInfoVC.h */,
+				18E4A5E01889298300302607 /* moreInfoVC.m */,
+				18E4A5E11889298300302607 /* moreInfoVC.xib */,
+				18E4A5E818892BA000302607 /* moreInfoVC-iPhone5.xib */,
+			);
+			name = "moreInfoVC(更多信息)";
+			sourceTree = "<group>";
+		};
+		18E5BCAC17BB9924003C8205 /* popAlert */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = popAlert;
+			sourceTree = "<group>";
+		};
+		18E5BCB317BCC359003C8205 /* 排班信息查询 */ = {
+			isa = PBXGroup;
+			children = (
+				18E5BCB717BDA68A003C8205 /* model */,
+				18E5BCB417BCC38E003C8205 /* searchList.h */,
+				18E5BCB517BCC38E003C8205 /* searchList.m */,
+			);
+			name = "排班信息查询";
+			sourceTree = "<group>";
+		};
+		18E5BCB717BDA68A003C8205 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				18E5BCB817BDA69C003C8205 /* searchListModel.h */,
+				18E5BCB917BDA69C003C8205 /* searchListModel.m */,
+				18E5BCBB17BDCF84003C8205 /* deptAppointmentModel.h */,
+				18E5BCBC17BDCF84003C8205 /* deptAppointmentModel.m */,
+				1855ED2217C6101500F10856 /* expertScheduleInfo.h */,
+				1855ED2317C6101500F10856 /* expertScheduleInfo.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		18F259B417B4EA1100B93A5F /* 获取医院 */ = {
+			isa = PBXGroup;
+			children = (
+				180CA72417B390DE0089BB1D /* model */,
+				1817EB2517B48FD300010843 /* getHospital.h */,
+				1817EB2617B48FD300010843 /* getHospital.m */,
+			);
+			name = "获取医院";
+			sourceTree = "<group>";
+		};
+		18F259B517B4EA2100B93A5F /* 获取科室 */ = {
+			isa = PBXGroup;
+			children = (
+				18F259B917B4EDBC00B93A5F /* model */,
+				18F259B617B4EA6E00B93A5F /* getDepartmentByHospital.h */,
+				18F259B717B4EA6E00B93A5F /* getDepartmentByHospital.m */,
+			);
+			name = "获取科室";
+			sourceTree = "<group>";
+		};
+		18F259B917B4EDBC00B93A5F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				18F259BA17B4EDCE00B93A5F /* departmentModel.h */,
+				18F259BB17B4EDCE00B93A5F /* departmentModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CBFA4C17AF4132006A5FEE /* MedicalService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CBFA6A17AF4132006A5FEE /* Build configuration list for PBXNativeTarget "MedicalService" */;
+			buildPhases = (
+				18CBFA4917AF4132006A5FEE /* Sources */,
+				18CBFA4A17AF4132006A5FEE /* Frameworks */,
+				18CBFA4B17AF4132006A5FEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicalService;
+			productName = MedicalService;
+			productReference = 18CBFA4D17AF4132006A5FEE /* 镇江掌上医疗.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CBFA4517AF4132006A5FEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "www.fenghuait.cn  镇江风华信息科技有限公司";
+				TargetAttributes = {
+					18CBFA4C17AF4132006A5FEE = {
+						DevelopmentTeam = CS7T78YGK6;
+					};
+				};
+			};
+			buildConfigurationList = 18CBFA4817AF4132006A5FEE /* Build configuration list for PBXProject "MedicalService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18CBFA4417AF4131006A5FEE;
+			productRefGroup = 18CBFA4E17AF4132006A5FEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CBFA4C17AF4132006A5FEE /* MedicalService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CBFA4B17AF4132006A5FEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CBFA5B17AF4132006A5FEE /* InfoPlist.strings in Resources */,
+				18CBFAC117AF434B006A5FEE /* MainVC.xib in Resources */,
+				18CBFAC317AF435E006A5FEE /* MainVC-iPhone5.xib in Resources */,
+				18CBFACB17AF931B006A5FEE /* Default-568h@2x.png in Resources */,
+				185BC8A6187AAD1B00B6EA3E /* book.png in Resources */,
+				18CBFACC17AF931B006A5FEE /* Default.png in Resources */,
+				18CBFACD17AF931B006A5FEE /* Default@2x.png in Resources */,
+				18CBFADF17AFA78D006A5FEE /* MainVC_background.png in Resources */,
+				18CBFAE117AFA846006A5FEE /* MainVC_background@2x.png in Resources */,
+				18B6B60C188CC8750086BE90 /* down.png in Resources */,
+				185BC8A4187AACE900B6EA3E /* health.png in Resources */,
+				18CBFAE317AFA8BA006A5FEE /* MainVC_background-568h@2x.png in Resources */,
+				18CBFAE517B0A2AE006A5FEE /* personal_service.png in Resources */,
+				18CBFAE717B0A2D0006A5FEE /* hospital.png in Resources */,
+				18CBFAE917B0A2ED006A5FEE /* register_guahao.png in Resources */,
+				18CBFAEB17B0A41F006A5FEE /* more_info.png in Resources */,
+				18CBFAF217B0D1E3006A5FEE /* pic1.jpg in Resources */,
+				18CBFAF317B0D1E3006A5FEE /* pic2.jpg in Resources */,
+				18CBFAF417B0D1E3006A5FEE /* pic3.jpg in Resources */,
+				18DF413B1875060F008E9164 /* personalInfoCell.xib in Resources */,
+				18E4A5E918892BA000302607 /* moreInfoVC-iPhone5.xib in Resources */,
+				1870140218729CEE00A2D27A /* loginFileVC-iPhone5.xib in Resources */,
+				18CBFAF517B0D1E3006A5FEE /* pic4.jpg in Resources */,
+				18CBFAF617B0D1E3006A5FEE /* pic5.jpg in Resources */,
+				18CBFAF717B0D1E3006A5FEE /* pic6.jpg in Resources */,
+				1870140918729F9800A2D27A /* loginVC_password@2x.png in Resources */,
+				180CA70417B376B70089BB1D /* MakeAppointmentVC.xib in Resources */,
+				18E4A5D21889193100302607 /* summaryDetailInfoVC.xib in Resources */,
+				180CA70817B378C90089BB1D /* Appoint_background.png in Resources */,
+				180CA70917B378C90089BB1D /* Appoint_background@2x.png in Resources */,
+				18E9F4A9185547C500DD103C /* icon_120.png in Resources */,
+				180CA70C17B378FA0089BB1D /* radio_pressed.png in Resources */,
+				180CA70D17B378FA0089BB1D /* radio_unpressed.png in Resources */,
+				180CA71217B37A6B0089BB1D /* comm_arrow_press.png in Resources */,
+				180CA71317B37A6B0089BB1D /* comm_other_arrow.png in Resources */,
+				180CA71517B37A7F0089BB1D /* group_bg.png in Resources */,
+				1817EB1417B4738800010843 /* hospital_bg.png in Resources */,
+				1817EB1617B4780700010843 /* yuyueguahao.png in Resources */,
+				1817EB1C17B47A3D00010843 /* hospitalAppointVC.xib in Resources */,
+				1817EB1E17B4822200010843 /* settings_dropdown.png in Resources */,
+				18E9F4A8185547C500DD103C /* icon_80.png in Resources */,
+				1817EB2017B4833800010843 /* field.png in Resources */,
+				186DDDD817BE0F32006B5D66 /* scheduleResultVC.xib in Resources */,
+				18B8843C17C1ABAB00F1B2EA /* search_Left.png in Resources */,
+				18B8843D17C1ABAB00F1B2EA /* search_Right.png in Resources */,
+				18B8843F17C1ABD100F1B2EA /* search_Field.png in Resources */,
+				18B8844417C1B4D200F1B2EA /* scheduleCell.xib in Resources */,
+				18B8844617C1B6FC00F1B2EA /* divider.png in Resources */,
+				18B8845D17C2116300F1B2EA /* popScheduleCell.xib in Resources */,
+				0FC0887D17C2FA0700EC5CBD /* FamousHospital.xib in Resources */,
+				18DF412D1873F4AE008E9164 /* personalInfoVC.xib in Resources */,
+				0FC0888B17C30CEE00EC5CBD /* FamousHospitalCell.xib in Resources */,
+				0FD1CF6A17C34E73008A1BF2 /* 0.html in Resources */,
+				1815EF5A18764AE200F2CA15 /* MJRefresh.bundle in Resources */,
+				0FD1CF6B17C34E73008A1BF2 /* 1.html in Resources */,
+				18B6B61C188CD0180086BE90 /* more.png in Resources */,
+				1870140018729CCD00A2D27A /* loginFileVC.xib in Resources */,
+				0FD1CF6C17C34E73008A1BF2 /* 2.html in Resources */,
+				0FD1CF6D17C34E73008A1BF2 /* 3.html in Resources */,
+				0FD1CF6E17C34E73008A1BF2 /* 4.html in Resources */,
+				0FD1CF6F17C34E73008A1BF2 /* 5.html in Resources */,
+				0FD1CF7017C34E73008A1BF2 /* braincenter.htm in Resources */,
+				0FD1CF7117C34E73008A1BF2 /* cardiology.htm in Resources */,
+				18E9F4AB1855492400DD103C /* icon_144.png in Resources */,
+				0FD1CF7217C34E73008A1BF2 /* chestsurgical.htm in Resources */,
+				0FD1CF7317C34E73008A1BF2 /* childprotection.htm in Resources */,
+				0FD1CF7417C34E73008A1BF2 /* criticalcaremedicine.htm in Resources */,
+				0FD1CF7617C34E73008A1BF2 /* dermatology.htm in Resources */,
+				1870141E1872BF4A00A2D27A /* loginVC_main.png in Resources */,
+				0FD1CF7717C34E73008A1BF2 /* liverdiseasebranch.htm in Resources */,
+				0FD1CF7817C34E73008A1BF2 /* obstetrics.htm in Resources */,
+				18E4A5E31889298300302607 /* moreInfoVC.xib in Resources */,
+				0FD1CF7917C34E73008A1BF2 /* obstetricsandgynecology.htm in Resources */,
+				0FD1CF7A17C34E73008A1BF2 /* ophthalmology.htm in Resources */,
+				18E9F4A7185547C500DD103C /* icon_58.png in Resources */,
+				0FD1CF7B17C34E73008A1BF2 /* orthopedics.htm in Resources */,
+				0FD1CF8117C35122008A1BF2 /* HospitalWebView.xib in Resources */,
+				0FD1CF8317C365A8008A1BF2 /* traditionalchineseinternalmedicine.htm in Resources */,
+				185BC89A187AA53400B6EA3E /* login_bg.png in Resources */,
+				0FC0209217C75447009A656C /* PersonalServiceVC.xib in Resources */,
+				18C39AB617C8B39E008FF3FF /* AppointRecord.xib in Resources */,
+				18C39ABC17C8B4BD008FF3FF /* appointRecordCell.xib in Resources */,
+				185BC89C187AA9DF00B6EA3E /* login_background.png in Resources */,
+				1850818D17CAD1F200E62724 /* MakeAppointmentVC-iPhone5.xib in Resources */,
+				1850818F17CAD53B00E62724 /* hospitalAppointVC-iPhone5.xib in Resources */,
+				18DF412F1873F4C4008E9164 /* personalInfoVC-iPhone5.xib in Resources */,
+				1850819117CAD73200E62724 /* scheduleResultVC-iPhone5.xib in Resources */,
+				18E9F4A3185547A000DD103C /* icon@2x.png in Resources */,
+				18E9F4A11855474100DD103C /* icon.png in Resources */,
+				1850819317CAE18600E62724 /* FamousHospital-iPhone5.xib in Resources */,
+				1850819517CAE25800E62724 /* HospitalWebView-iPhone5.xib in Resources */,
+				1850819717CAED0E00E62724 /* PersonalServiceVC-iPhone5.xib in Resources */,
+				1850819B17CAFF3D00E62724 /* AppointRecord-iPhone5.xib in Resources */,
+				185081A017CB000900E62724 /* KangFuAppointRecord.xib in Resources */,
+				185081A217CB47B800E62724 /* KangFuAppointRecord-iPhone.xib in Resources */,
+				18E4A5D41889194400302607 /* summaryDetailInfoVC-iPhone5.xib in Resources */,
+				18B6B60E188CC9250086BE90 /* up.png in Resources */,
+				189920A317CD85F90005B620 /* weiboListVC.xib in Resources */,
+				189920BA17CDE6770005B620 /* 12320.png in Resources */,
+				189920BB17CDE6770005B620 /* blood_Center.png in Resources */,
+				189920BC17CDE6770005B620 /* Chinese_Medicine.png in Resources */,
+				18E9F49F185542F500DD103C /* Images.xcassets in Resources */,
+				189920BD17CDE6770005B620 /* DanTu.png in Resources */,
+				189920BE17CDE6770005B620 /* First_Peoples_Hospital.png in Resources */,
+				189920BF17CDE6770005B620 /* Fourth_People_Hospital.png in Resources */,
+				189920C017CDE6770005B620 /* health_Inspection_Bureau.png in Resources */,
+				189920C117CDE6770005B620 /* JianBi_Zhen.png in Resources */,
+				189920C217CDE6770005B620 /* JingKou_CDC.png in Resources */,
+				189920C317CDE6770005B620 /* Public_Heath_Bureau.png in Resources */,
+				189920C417CDE6770005B620 /* Second_Peoples_Hospital.png in Resources */,
+				18DF41271873E339008E9164 /* rootVC-iPhone5.xib in Resources */,
+				189920C517CDE6770005B620 /* Stomatological_Hospital.png in Resources */,
+				187013E7187267D100A2D27A /* icon_29.png in Resources */,
+				1870140A18729F9800A2D27A /* loginVC_username.png in Resources */,
+				189920C617CDE6770005B620 /* Third_Peoples_Hospital.png in Resources */,
+				189920C717CDE6770005B620 /* UJS_Hospital.png in Resources */,
+				1870140818729F9800A2D27A /* loginVC_password.png in Resources */,
+				189920C917CDE6770005B620 /* V.png in Resources */,
+				187013F518728D2900A2D27A /* rootVC.xib in Resources */,
+				189920CA17CDE6770005B620 /* Youth_League_Committee.png in Resources */,
+				189920CC17CDE7730005B620 /* Medical_Reform.png in Resources */,
+				189920CE17CDE7E60005B620 /* Wisdom_Health_ZhenJiang.png in Resources */,
+				189920D417CDF0700005B620 /* weiboCell.xib in Resources */,
+				18E8B64B187BE106005C4F08 /* bar.png in Resources */,
+				1870140B18729F9800A2D27A /* loginVC_username@2x.png in Resources */,
+				189920D917CDF90B0005B620 /* weiboMainVC.xib in Resources */,
+				18B806E217CF22E5002A0861 /* tap_button.png in Resources */,
+				189D84D317D488CF00327D19 /* urologySpecialty.htm in Resources */,
+				189D84D517D488DA00327D19 /* GetWellSpecial.htm in Resources */,
+				18BAEA6B17D70A54003C3425 /* weiboMainVC-iPhone5.xib in Resources */,
+				18BAEA6D17D70B4F003C3425 /* weiboListVC-iPhone5.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CBFA4917AF4132006A5FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1F76FC17C3297A00478CDB /* deptTimeModel.m in Sources */,
+				0F1F76FD17C3297A00478CDB /* deptTimeScheduleService.m in Sources */,
+				0F1F76FA17C3295E00478CDB /* FamousHospitalCell.m in Sources */,
+				0F1F76FB17C3295E00478CDB /* FamousHospital.m in Sources */,
+				18CBFA5D17AF4132006A5FEE /* main.m in Sources */,
+				18DF4138187505F0008E9164 /* personalInfoCell.m in Sources */,
+				18E4A5D11889193100302607 /* summaryDetailInfoVC.m in Sources */,
+				18CBFA6117AF4132006A5FEE /* AppDelegate.m in Sources */,
+				18CBFAAE17AF41C8006A5FEE /* UIDevice+help.m in Sources */,
+				18CBFAAF17AF41C8006A5FEE /* UIView+toast.m in Sources */,
+				18CBFAB017AF41C8006A5FEE /* UIViewController+help.m in Sources */,
+				1815EF5B18764AE200F2CA15 /* MJRefreshBaseView.m in Sources */,
+				18CBFAB317AF41C8006A5FEE /* FLActivity.m in Sources */,
+				18CBFAB417AF41C8006A5FEE /* FLtableViewCell.m in Sources */,
+				18CBFABE17AF4310006A5FEE /* MainVC.m in Sources */,
+				18CBFAD417AF9CC4006A5FEE /* SGFocusImageFrame.m in Sources */,
+				18CBFAD517AF9CC4006A5FEE /* SGFocusImageItem.m in Sources */,
+				18E4A5C11887CA1C00302607 /* parseXmlToArray.m in Sources */,
+				18CBFB1A17B0D7C6006A5FEE /* ASIAuthenticationDialog.m in Sources */,
+				18CBFB1B17B0D7C6006A5FEE /* ASIDataCompressor.m in Sources */,
+				18CBFB1C17B0D7C6006A5FEE /* ASIDataDecompressor.m in Sources */,
+				18CBFB1D17B0D7C6006A5FEE /* ASIDownloadCache.m in Sources */,
+				18CBFB1E17B0D7C6006A5FEE /* ASIFormDataRequest.m in Sources */,
+				18CBFB1F17B0D7C6006A5FEE /* ASIHTTPRequest.m in Sources */,
+				18CBFB2017B0D7C6006A5FEE /* ASIInputStream.m in Sources */,
+				18CBFB2117B0D7C6006A5FEE /* ASINetworkQueue.m in Sources */,
+				18CBFB2217B0D7C6006A5FEE /* Reachability.m in Sources */,
+				18CBFB2317B0D7C6006A5FEE /* GDataXMLNode.m in Sources */,
+				18CBFB2417B0D7C6006A5FEE /* SoapXmlParseHelper.m in Sources */,
+				18CBFB2717B0D7FA006A5FEE /* NetWebServiceRequest.m in Sources */,
+				1815EF5C18764AE200F2CA15 /* MJRefreshFooterView.m in Sources */,
+				18CBFB3817B1EB7D006A5FEE /* Webservices.m in Sources */,
+				180CA70317B376B70089BB1D /* MakeAppointmentVC.m in Sources */,
+				180CA72717B391000089BB1D /* hospitalModel.m in Sources */,
+				1817EB1B17B47A3D00010843 /* hospitalAppointVC.m in Sources */,
+				187013F418728D2900A2D27A /* rootVC.m in Sources */,
+				1817EB2717B48FD300010843 /* getHospital.m in Sources */,
+				18F259B817B4EA6E00B93A5F /* getDepartmentByHospital.m in Sources */,
+				18F259BC17B4EDCE00B93A5F /* departmentModel.m in Sources */,
+				1805073617B8643F00CF8C43 /* ConfirmAppointment.m in Sources */,
+				1805073A17B86B8900CF8C43 /* confirmModel.m in Sources */,
+				188E44D017B87E200030F9D6 /* KangFuDeptSchedule.m in Sources */,
+				18DF412C1873F4AE008E9164 /* personalInfoVC.m in Sources */,
+				18E5BCAB17BB1755003C8205 /* GetXML.m in Sources */,
+				18E5BCB217BB9BAA003C8205 /* popAlertView.m in Sources */,
+				18E5BCB617BCC38E003C8205 /* searchList.m in Sources */,
+				18E5BCBA17BDA69C003C8205 /* searchListModel.m in Sources */,
+				18E5BCBD17BDCF84003C8205 /* deptAppointmentModel.m in Sources */,
+				186DDDD717BE0F32006B5D66 /* scheduleResultVC.m in Sources */,
+				18B8844917C1B83D00F1B2EA /* scheduleCell.m in Sources */,
+				18B8844D17C1F3B000F1B2EA /* NSString+block.m in Sources */,
+				18B8845117C1F40200F1B2EA /* UIView+tapBlock.m in Sources */,
+				18B8845B17C2115200F1B2EA /* popScheduleCell.m in Sources */,
+				189AB54817C3711E00EFF4E3 /* TPKeyboard.m in Sources */,
+				0FD1CF8017C35122008A1BF2 /* HospitalWebView.m in Sources */,
+				189AB54B17C49E2800EFF4E3 /* ticketListModel.m in Sources */,
+				1855ED2117C5B34700F10856 /* regPatientInfo.m in Sources */,
+				1855ED2417C6101500F10856 /* expertScheduleInfo.m in Sources */,
+				187013FF18729CCD00A2D27A /* loginFileVC.m in Sources */,
+				1855ED2817C612CA00F10856 /* expertResourceScheduleDetail.m in Sources */,
+				1855ED2B17C6491800F10856 /* expertInfoModel.m in Sources */,
+				1855ED2E17C7001B00F10856 /* expertScheduleDetalModel.m in Sources */,
+				0FC0209117C75447009A656C /* PersonalServiceVC.m in Sources */,
+				1855ED3317C85CD000F10856 /* getPatientInfo.m in Sources */,
+				18E4A5E21889298300302607 /* moreInfoVC.m in Sources */,
+				1855ED3617C8660F00F10856 /* patientInfo.m in Sources */,
+				18E4A5BE1887AFE600302607 /* requestFiles.m in Sources */,
+				18C39AB517C8B39E008FF3FF /* AppointRecord.m in Sources */,
+				18C39ABA17C8B4AB008FF3FF /* appointRecordCell.m in Sources */,
+				1815EF5D18764AE200F2CA15 /* MJRefreshHeaderView.m in Sources */,
+				18C39AC017C8B5B3008FF3FF /* queryAppRecord.m in Sources */,
+				1850818A17C9DAC000E62724 /* appRecordModel.m in Sources */,
+				1850819F17CB000900E62724 /* KangFuAppointRecord.m in Sources */,
+				185081A617CB513300E62724 /* cancelAppointment.m in Sources */,
+				189920A217CD85F90005B620 /* weiboListVC.m in Sources */,
+				189920D217CDF0610005B620 /* weiboCell.m in Sources */,
+				189920D817CDF90B0005B620 /* weiboMainVC.m in Sources */,
+				18B806DE17CED5F2002A0861 /* ScheduleIDByTimeSlice.m in Sources */,
+				181ABFF217D9AA4600BB1003 /* JSONKit.m in Sources */,
+				181ABFF317D9AA4600BB1003 /* AWVersionAgent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18CBFA5917AF4132006A5FEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CBFA5A17AF4132006A5FEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CBFA6817AF4132006A5FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18CBFA6917AF4132006A5FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CBFA6B17AF4132006A5FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: wenwu zhou (CS7T78YGK6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedicalService/MedicalService-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+					/usr/include/netinet,
+				);
+				INFOPLIST_FILE = "MedicalService/MedicalService-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "镇江掌上医疗";
+				PROVISIONING_PROFILE = "84B9155C-DD77-48E5-97F2-BF746A6DDDF4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "84B9155C-DD77-48E5-97F2-BF746A6DDDF4";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18CBFA6C17AF4132006A5FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: wenwu zhou (CS7T78YGK6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: wenwu zhou (CS7T78YGK6)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedicalService/MedicalService-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+					/usr/include/netinet,
+				);
+				INFOPLIST_FILE = "MedicalService/MedicalService-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "镇江掌上医疗";
+				PROVISIONING_PROFILE = "84B9155C-DD77-48E5-97F2-BF746A6DDDF4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "84B9155C-DD77-48E5-97F2-BF746A6DDDF4";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CBFA4817AF4132006A5FEE /* Build configuration list for PBXProject "MedicalService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CBFA6817AF4132006A5FEE /* Debug */,
+				18CBFA6917AF4132006A5FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CBFA6A17AF4132006A5FEE /* Build configuration list for PBXNativeTarget "MedicalService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CBFA6B17AF4132006A5FEE /* Debug */,
+				18CBFA6C17AF4132006A5FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CBFA4517AF4132006A5FEE /* Project object */;
+}
